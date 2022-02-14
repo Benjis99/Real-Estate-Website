@@ -4,6 +4,7 @@ import Loggo from "./pictures/loggatrue.png";
 import SearchIcon from "@mui/icons-material/Search";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 import LoginIcon from "@mui/icons-material/Login";
+import { Button } from "@mui/material";
 function Header() {
   return (
     <div className="header">
