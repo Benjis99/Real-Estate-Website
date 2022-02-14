@@ -1,0 +1,11 @@
+.navigation {
+  background-color: aqua;
+  height: 40px;
+  text-align: center;
+}
+
+.test {
+  display: flex;
+  flex: 1;
+  margin-left: 60px;
+}
