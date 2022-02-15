@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
 .displaySection {
   display: flex;
 
   padding: 30px;
+}
+
+h1{
+  font-size: 80px;
+  line-height: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 60px;
+  text-align: left;
+}
+
+.textbox{
+  text-align: justify;
+  padding:15px;
+  padding-top: 5px;
+  background-color:#ECECEC;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr{
+  width:93%;
 }

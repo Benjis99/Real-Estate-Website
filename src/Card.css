@@ -1,11 +1,14 @@
 .card {
   margin: 10px;
   margin-left: 20px;
-  border-radius: 5px;
+  border-radius: 4px;
   overflow: hidden;
   box-shadow: 0px 2px 8px rgb(146, 146, 146);
   transition: transform 100ms ease-in;
   cursor: pointer;
+  background-color: #171F32;
+  color: #fff;
+  padding:25px;
 }
 
 .card:hover {

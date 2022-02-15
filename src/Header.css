@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  top: 0;
   position: sticky;
   background-color: #171f32;
   z-index: 100;
@@ -12,6 +20,8 @@
   object-fit: contain;
   height: 100px;
   margin-left: 40px;
+  margin-top:15px;
+  margin-bottom: 15px;
 }
 
 .searchBar {
@@ -20,7 +30,7 @@
   align-items: center;
   max-width: fit-content;
   padding: 10px;
-  height: 30px;
+  height: 15px;
   background-color: white;
   border: 1px solid rgb(144, 143, 143);
   border-radius: 999px;
@@ -34,11 +44,14 @@
 
 .icons {
   display: flex;
-  align-items: center;
+  align-items:center;
   color: rgb(233, 233, 233);
   margin-right: 40px;
+  margin-left:10px;
 }
 
 .iconText {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-left:10px;
 }
