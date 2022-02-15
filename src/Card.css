@@ -8,7 +8,7 @@
   cursor: pointer;
   background-color: #171F32;
   color: #fff;
-  padding:25px;
+  padding:0px;
 }
 
 .card:hover {
@@ -22,4 +22,10 @@
   min-height: 200px;
 
   width: 100%;
+}
+
+.description{
+  text-align: left;
+  padding:20px;
+  font-size: 13px;
 }

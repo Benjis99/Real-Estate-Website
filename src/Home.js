@@ -14,7 +14,7 @@ function Home() {
       <Banner />
 
      
-        <h1>Let us guide you home.</h1>
+        <h1 class="boxtitle">A place for everyone.</h1>
 
       <div class="textbox">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At in tellus integer feugiat scelerisque varius. Scelerisque felis imperdiet proin fermentum leo vel.

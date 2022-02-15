@@ -11,8 +11,18 @@
   padding: 30px;
 }
 
+h1.boxtitle{
+  font-size: 60px;
+  line-height: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 60px;
+  text-align: left;
+}
+
 h1{
-  font-size: 80px;
+  font-size: 90px;
   line-height: 0;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
