@@ -1,0 +1,12 @@
+.authorText {
+  text-align: right;
+}
+
+.blogBoxes {
+  display: flex;
+}
+
+.rowTest {
+  margin-left: 100px;
+  background-color: aqua;
+}
