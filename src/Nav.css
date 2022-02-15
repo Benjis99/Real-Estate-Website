@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
 
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 .navigation {
   background-color: #171f32;
   height: 40px;
   text-align: center;
-  padding:0px;
+  padding: 0px;
   padding-bottom: 10px;
 }
 
 .test {
-  margin-left: -70px;
+  margin-left: -115px;
   align-items: center;
 }
 
