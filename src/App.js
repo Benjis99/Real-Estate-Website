@@ -4,13 +4,14 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Blog from "./Blog";
+import LoginPage from "./LoginPage";
 
 function App() {
   return (
     <div>
       <Header />
       <Nav />
-      <Home />
+      <LoginPage />
       <Footer />
     </div>
   );

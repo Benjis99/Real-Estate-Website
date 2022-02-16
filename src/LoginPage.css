@@ -1,0 +1,20 @@
+.containerLogin {
+  border: 2px solid red;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-3 {
+  border: px solid green;
+  height: 50px;
+  width: 300px;
+}
+.loginBoxes {
+  border: 2px solid purple;
+  height: 20px;
+}
+.text-muted {
+  border: 0px solid black;
+}
