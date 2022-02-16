@@ -41,6 +41,14 @@ function Home() {
           startingPrice="Price"
           location="Location"
         />
+          <Card
+          src={house2}
+          title="Title"
+          description="Description"
+          startingPrice="Price"
+          location="Location"
+        />
+        
       </div>
 
       <div className="displaySection">
