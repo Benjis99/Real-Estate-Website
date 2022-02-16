@@ -1,9 +1,9 @@
 import "./App.css";
-import Home from "./Home";
+import Home from "./home/Home";
 import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import Blog from "./Blog";
+import Blog from "./blogPosts/Blog";
 
 function App() {
   return (
