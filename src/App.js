@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import Blog from "./blogPosts/Blog";
 import LoginPage from "./LoginPage";
+import Contact from "./contact/Contact";
 
 function App() {
   return (

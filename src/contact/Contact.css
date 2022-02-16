@@ -1,0 +1,13 @@
+.contactBox {
+  background-color: rgb(219, 219, 219);
+  width: 800px;
+  height: 800px;
+
+  padding: 50px;
+  margin: 20px;
+  margin-left: 750px;
+}
+
+.contactTitle {
+  text-align: center;
+}
