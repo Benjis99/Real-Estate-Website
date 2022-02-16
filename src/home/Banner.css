@@ -1,17 +1,17 @@
 .banner {
-  background: url("pictures/homepage.jpg") center center;
+  background: url("../pictures/homepage.jpg") center center;
   height: 80vh;
   position: relative;
 }
 
-h1.slogan{
+h1.slogan {
   font-size: 120px;
   line-height: 1;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   margin-left: 100px;
   margin-top: 80px;
-  position:absolute;
+  position: absolute;
   text-align: left;
   text-decoration: underline;
 }
