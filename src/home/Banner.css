@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
 
 .banner {
+<<<<<<< HEAD:src/Banner.css
   background: url("pictures/topban.png") center center;
+=======
+  background: url("../pictures/homepage.jpg") center center;
+>>>>>>> ef51f042ddfac3744e00ebbc0219b93daee95aca:src/home/Banner.css
   height: 80vh;
   position: relative;
 }
 
+<<<<<<< HEAD:src/Banner.css
 .containerslogan{
   display: flex;
   text-align: right;
@@ -23,3 +28,16 @@ h1.slogan{
   text-decoration: underline;
   color: #ffff;
 }
+=======
+h1.slogan {
+  font-size: 120px;
+  line-height: 1;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: 80px;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+}
+>>>>>>> ef51f042ddfac3744e00ebbc0219b93daee95aca:src/home/Banner.css
