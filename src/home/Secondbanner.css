@@ -1,6 +1,25 @@
 .secondbanner {
     background: url("../pictures/secondbanner2.jpg") center center;
-    height: 40vh;
+    height: 50vh;
     position: relative;
     margin-top:30px;
+    display: flex;
+  }
+
+  .secondtextbox{
+    width:700px;
+    margin-top: ;
+    margin-left: 50px;
+   background-color:#ECECEC;
+   color:black;
+   opacity: 20%;
+   padding: 20px;
+   transition: transform 100ms ease-in;
+  }
+  .secondtextbox:hover{
+    width:700px;
+    margin-left: 50px;
+   background-color:#ECECEC;
+   opacity: 80%;
+   padding: 20px;
   }
