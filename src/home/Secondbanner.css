@@ -1,0 +1,6 @@
+.secondbanner {
+    background: url("../pictures/secondbanner2.jpg") center center;
+    height: 40vh;
+    position: relative;
+    margin-top:30px;
+  }

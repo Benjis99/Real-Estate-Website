@@ -7,8 +7,9 @@
 }
 .displaySection {
   display: flex;
-
   padding: 30px;
+  font-family: 'Playfair Display', serif;
+  width: auto;
 }
 
 h1.boxtitle{
@@ -19,7 +20,10 @@ h1.boxtitle{
   margin-left: 50px;
   margin-top: 60px;
   text-align: left;
+  opacity: 80%;
 }
+
+
 
 h1{
   font-size: 60px;
@@ -29,6 +33,7 @@ h1{
   margin-left: 50px;
   margin-top: 60px;
   text-align: left;
+  opacity: 80%;
 }
 
 .textbox{
