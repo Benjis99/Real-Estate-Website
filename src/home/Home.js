@@ -35,8 +35,6 @@ function Home() {
         </p>
       </div>
 
-      <Secondbanner/>
-
       <h1>Our current listings</h1>
       <hr></hr>
 
@@ -55,7 +53,7 @@ function Home() {
           seamlessly blurring the lines between indoors and outdoors to offer the ultimate Southern California lifestyle."
           location="NICHOLS CANYON, LOS ANGELES, CA 90046"
           startingPrice="$28,800,000 "
-          beds="4 Beds  "
+          beds="4 Beds -"
           baths=" 3 Baths - "
           type="Single Family Home  "
         />
@@ -70,7 +68,7 @@ function Home() {
           integrate interior and exterior spaces for the ultimate California lifestyle."
           startingPrice="$25,000,000"
           location="BEVERLY HILLS, CA 90210"
-         summary="4 Beds ・ 3 Baths ・ 2 Half Baths ・ Single Family Home"
+           type ="4 Beds ・ 3 Baths ・ 2 Half Baths ・ Single Family Home"
         />
       
           <Card
@@ -89,6 +87,7 @@ function Home() {
         
       </div>
 
+      <Secondbanner/>
       <div className="displaySection">
         <Card
           src={house3}

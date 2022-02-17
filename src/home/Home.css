@@ -21,6 +21,7 @@ h1.boxtitle{
   margin-top: 60px;
   text-align: left;
   opacity: 80%;
+  position: absolute;
 }
 
 
@@ -39,12 +40,14 @@ h1{
 .textbox{
   text-align: justify;
   padding:15px;
-  padding-top: 5px;
+  padding-left:50px;
+  padding-right:50px;
   background-color:#ECECEC;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 85px;
 }
 
 hr{
