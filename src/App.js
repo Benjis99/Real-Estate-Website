@@ -6,13 +6,14 @@ import Footer from "./Footer";
 import Blog from "./blogPosts/Blog";
 import LoginPage from "./LoginPage";
 import Contact from "./contact/Contact";
+import Listings from "./listings/Listings";
 
 function App() {
   return (
     <div>
       <Header />
       <Nav />
-      <Contact />
+      <Listings />
       <Footer />
     </div>
   );

@@ -2,14 +2,11 @@
   background-color: #171f32;
 
   margin: auto;
-  width: 40%;
+  width: 50%;
   height: 700px;
   padding: 0%;
   margin-bottom: 600px;
   border-radius: 30px;
-}
-
-.mb-3 {
   text-align: center;
   margin-top: 10px;
   padding: 30px;
@@ -23,20 +20,63 @@
   width: 25px;
 }
 
-.mobile-control {
-}
-
 .documents {
-  width: 600px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   resize: none;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 .form-control {
-  height: 25px;
+  height: 30px;
 }
 
 .email-control {
-  width: 300px;
+  width: 350px;
+  height: 30px;
+  margin-top: 80px;
+}
+.emailStart {
+  margin-top: -36px;
+}
+
+.emailBox {
+  margin-top: 40px;
+  margin-left: -300px;
+}
+
+.start-number-control {
+  height: 30px;
+  width: 50px;
+}
+
+.mobile-control {
+  width: 290px;
+  height: 30px;
+  margin-left: 60px;
+}
+
+.firstName {
+  margin-left: -190px;
+}
+.secondName {
+  margin-left: 190px;
+  margin-top: -36px;
+}
+
+.mailAddress {
+  margin-top: -44px;
+}
+
+.btn-send {
+  width: 140px;
+  height: 40px;
+  background-color: #ff611d;
+
+  margin-top: 25px;
+}
+
+.btn-send:hover {
+  cursor: pointer;
 }
