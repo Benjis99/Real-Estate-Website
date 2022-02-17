@@ -7,8 +7,9 @@
 }
 .displaySection {
   display: flex;
-
   padding: 30px;
+  font-family: 'Playfair Display', serif;
+  width: auto;
 }
 
 h1.boxtitle{
@@ -19,27 +20,34 @@ h1.boxtitle{
   margin-left: 50px;
   margin-top: 60px;
   text-align: left;
+  opacity: 80%;
+  position: absolute;
 }
 
+
+
 h1{
-  font-size: 90px;
+  font-size: 60px;
   line-height: 0;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   margin-left: 50px;
   margin-top: 60px;
   text-align: left;
+  opacity: 80%;
 }
 
 .textbox{
   text-align: justify;
   padding:15px;
-  padding-top: 5px;
+  padding-left:50px;
+  padding-right:50px;
   background-color:#ECECEC;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 85px;
 }
 
 hr{
