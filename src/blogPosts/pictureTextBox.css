@@ -1,6 +1,6 @@
 .pictureTextBox {
-  margin: 10px;
-  margin-left: 20px;
+  margin: 100px;
+  margin-left: 90px;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0px 2px 8px rgb(117, 117, 117);
@@ -10,21 +10,43 @@
   color: rgb(0, 0, 0);
   padding: 0px;
   display: flex;
-  height: 500px;
+  height: 650px;
+  margin-top: -1px;
 }
-.fgh {
-  text-align: left;
+
+.descBox {
+  margin-left: 20px;
+  margin-top: -10px;
+  max-width: 850px;
 }
 
 .dateText {
   text-align: left;
+  color: #ff611d;
+  font-size: 20px;
 }
 
 .titleTextPosts {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.lineText {
+  margin-top: -50px;
+  font-weight: bold;
 }
 
 .descText {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .secDescText {
+  font-size: 20px;
+}
+
+.authText {
+  text-align: right;
+  margin-right: 15px;
 }

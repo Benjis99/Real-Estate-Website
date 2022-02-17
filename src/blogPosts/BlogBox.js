@@ -7,7 +7,7 @@ function BlogBox({ src, title, description, author }) {
       <img src={src} alt="" />
       <div className="description">
         <h4 className="title">{title}</h4>
-        <p>{description}</p>
+        <p className="descript">{description}</p>
         <p className="author">{author}</p>
       </div>
     </div>

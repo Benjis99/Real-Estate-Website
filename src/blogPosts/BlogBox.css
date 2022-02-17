@@ -27,12 +27,18 @@
   margin: 0px;
   margin-top: -20px;
   align-items: left;
+  color: #ff611d;
 }
 
 .description {
   text-align: left;
+  font-size: 20px;
+}
 
-  font-size: 13px;
+.descript {
+  font-size: 18px;
+  max-width: 600px;
+  font-weight: bold;
 }
 
 .author {
