@@ -1,11 +1,13 @@
 import React from "react";
 import "./Contact.css";
 import { Button } from "react-bootstrap";
+import ContactBanner from "./ContactBanner";
 
 function Contact() {
   return (
     <div className="contact">
-      <h1 className="contactTitle">Contact us</h1>
+      <ContactBanner />
+      <h1 className="contactBannerTitle">Contact us</h1>
       <div className="container-contact">
         <div className="firstName">
           <input

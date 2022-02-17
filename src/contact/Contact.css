@@ -8,12 +8,18 @@
   margin-bottom: 600px;
   border-radius: 30px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 170px;
   padding: 30px;
+
+  padding-right: 80px;
 }
 
-.contactTitle {
+.contactBannerTitle {
   text-align: center;
+  margin-top: -150px;
+  padding-right: 130px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px white;
 }
 
 .start-number-control {
@@ -26,6 +32,7 @@
   resize: none;
   border-radius: 10px;
   margin-top: 30px;
+  outline: none;
 }
 
 .form-control {
@@ -36,6 +43,7 @@
   width: 350px;
   height: 30px;
   margin-top: 80px;
+  outline: none;
 }
 .emailStart {
   margin-top: -36px;
@@ -49,20 +57,24 @@
 .start-number-control {
   height: 30px;
   width: 50px;
+  outline: none;
 }
 
 .mobile-control {
   width: 290px;
   height: 30px;
   margin-left: 60px;
+  outline: none;
 }
 
 .firstName {
   margin-left: -190px;
+  outline: none;
 }
 .secondName {
   margin-left: 190px;
   margin-top: -36px;
+  outline: none;
 }
 
 .mailAddress {

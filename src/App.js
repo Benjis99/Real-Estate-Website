@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header />
       <Nav />
-      <Listings />
+      <Contact />
       <Footer />
     </div>
   );
