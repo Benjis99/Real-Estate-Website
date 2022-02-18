@@ -1,0 +1,148 @@
+.servicesHeadContainer {
+  border: px solid red;
+  height: 450px;
+  background: url("../pictures/OurServicesHeader.png");
+  object-fit: contain;
+}
+.servicesSecondHead {
+  border: px solid red;
+  height: 450px;
+  background: url("../pictures/servicesSecondHead.png");
+  object-fit: contain;
+}
+.houseIcon {
+  border: 1px solid red;
+  background: url("../pictures/houseIcon.png");
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
+  float: left;
+}
+.propteryFinder {
+  border: 1px solid red;
+  background: url("../pictures/propertyFinder.png");
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
+  float: left;
+}
+.alertBell {
+  border: 1px solid red;
+  background: url("../pictures/alertBell.png");
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
+  float: left;
+}
+.servicesHeaderText {
+  border: 2px solid red;
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: left;
+}
+.servicesTextBox {
+  border: 2px solid blue;
+  height: 200px;
+  display: flex;
+}
+.servicesInformation {
+  border: 2px solid green;
+  height: 400px;
+}
+.servicesHeaderH1 {
+  font-size: 40px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: -15px;
+}
+
+.servicesInfoHeader {
+  border: px solid black;
+  display: flex;
+  height: 100px;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  justify-content: center;
+  background-color: #171f32;
+}
+.servicesInfoHeaderText {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: flex;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.servicesInfoContainer {
+  border: 1px solid green;
+  height: 400px;
+}
+
+.flex-item {
+  padding: 4rem;
+  margin: 1rem;
+
+  background-color: #f4f4f4;
+  font-size: 20px;
+
+  flex-grow: 1;
+}
+.flex-item:nth-child(2) {
+  flex-grow: 5;
+}
+
+.flex-container {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-flow: row;
+}
+
+.flex-container-info {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-flow: row;
+}
+.flex-item-info {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid red;
+  background-color: #f4f4f4;
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.flex-item-info:not(:first-child):not(:last-child) {
+  flex-grow: 1;
+}
+.servicesIconTitle {
+  display: inline;
+  font-size: 28px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.servicesIconTitleOrange {
+  display: inline;
+  font-size: 28px;
+  color: #ff611d;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.servicesTextOrange {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #ff611d;
+  box-shadow: none;
+}
+
