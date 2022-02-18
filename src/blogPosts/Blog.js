@@ -6,14 +6,15 @@ import host from "../pictures/host.jpg";
 import group from "../pictures/group.jpg";
 import manWalking from "../pictures/manwalking.jpg";
 import house from "../pictures/house.jpg";
+import DropDowns from "./DropDowns";
+import { Button } from "react-bootstrap";
 
 function Blog() {
   return (
     <div className="blog">
-      <h1 className="mainText">RECENT POSTS</h1>
       <div className="recentPost">
         <PictureTextBox
-          src={host}
+          postTitle="Recent posts"
           date="10 FEBRUARY 2022 16:50"
           title="POST TITLE"
           line="​​━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
@@ -28,7 +29,53 @@ function Blog() {
           auth="-Author"
         />
       </div>
+      <section className="middle-section">
+        <h2 className="middle-text">Lorem Ipsum</h2>
+        <p className="sortBy">Sort by</p>
+        <DropDowns />
+      </section>
       <div className="blogBoxes">
+        <BlogBox
+          src={group}
+          title="10 FEBRUARY 2022 14:30"
+          description="Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. 
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor."
+          author="-Author"
+        />
+        <BlogBox
+          src={manWalking}
+          title="10 FEBRUARY 2022 14:30"
+          description="Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. 
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor."
+          author="-Author"
+        />
+        <BlogBox
+          src={house}
+          title="10 FEBRUARY 2022 14:30"
+          description="Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. 
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. 
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor."
+          author="-Author"
+        />
+      </div>
+      <div className="second-row">
         <BlogBox
           src={group}
           title="10 FEBRUARY 2022 14:30"

@@ -1,0 +1,5 @@
+.aboutBanner {
+  background: url("../pictures/laptop.jpg") center center;
+  height: 50vh;
+  position: relative;
+}

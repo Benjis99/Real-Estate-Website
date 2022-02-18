@@ -7,6 +7,10 @@ import Blog from "./blogPosts/Blog";
 import LoginPage from "./LoginPage";
 import Contact from "./contact/Contact";
 import OurServices from "./ourServices/OurServices";
+import LoginPage from "./login/LoginPage";
+import Contact from "./contact/Contact";
+import Listings from "./listings/Listings";
+import About from "./about/About";
 
 function App() {
   return (

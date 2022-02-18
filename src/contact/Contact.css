@@ -1,13 +1,128 @@
-.contactBox {
-  background-color: rgb(219, 219, 219);
-  width: 800px;
-  height: 800px;
-
-  padding: 50px;
-  margin: 20px;
-  margin-left: 750px;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+.entire-container {
+  margin-left: -100px;
 }
 
-.contactTitle {
+.information-contact {
+  background-color: #171f32;
+
+  margin: auto;
+  max-width: 500px;
+  height: 100px;
+
+  margin-top: 220px;
+  padding: 30px;
+}
+
+.container-contact {
+  background-color: #b9b9b9;
+
+  margin: auto;
+  max-width: 500px;
+  height: 520px;
+
+  margin-bottom: 600px;
   text-align: center;
+
+  padding: 30px;
+}
+
+.contactBannerTitle {
+  text-align: center;
+  margin-top: -140px;
+  padding-right: 90px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px white;
+}
+
+.start-number-control {
+  width: 25px;
+}
+
+.title-contact {
+  font-family: "Playfair Display", serif;
+  margin-top: -30px;
+  color: white;
+  font-size: 44px;
+}
+
+.body-text {
+  margin-top: -20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.documents {
+  width: 500px;
+  height: 250px;
+  resize: none;
+
+  margin-top: 30px;
+  outline: none;
+}
+
+.form-control {
+  height: 30px;
+}
+
+.email-control {
+  width: 350px;
+  height: 30px;
+  margin-top: 80px;
+  outline: none;
+}
+.emailStart {
+  margin-top: -36px;
+}
+
+.emailBox {
+  margin-top: 40px;
+  margin-left: -300px;
+}
+
+.start-number-control {
+  height: 30px;
+  width: 50px;
+  outline: none;
+}
+
+.mobile-control {
+  width: 290px;
+  height: 30px;
+  margin-left: 60px;
+  outline: none;
+}
+
+.firstName {
+  margin-left: -190px;
+  outline: none;
+}
+.secondName {
+  margin-left: 190px;
+  margin-top: -36px;
+  outline: none;
+}
+
+.mailAddress {
+  margin-top: -44px;
+}
+
+.btn-send {
+  width: 140px;
+  height: 40px;
+  background-color: #ff611d;
+
+  margin-top: 25px;
+}
+
+.btn-send:hover {
+  cursor: pointer;
+}
+
+.send-btn {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-family: "Playfair Display", serif;
 }

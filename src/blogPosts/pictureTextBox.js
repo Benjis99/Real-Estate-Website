@@ -2,7 +2,7 @@ import React from "react";
 import "./pictureTextBox.css";
 
 function pictureTextBox({
-  src,
+  postTitle,
   date,
   title,
   line,
@@ -12,8 +12,8 @@ function pictureTextBox({
 }) {
   return (
     <div className="pictureTextBox">
-      <img src={src} alt="" />
       <div className="descBox">
+        <h1 className="post-title-text">{postTitle}</h1>
         <h2 className="dateText">{date}</h2>
         <p className="titleTextPosts">{title}</p>
         <p className="lineText">{line}</p>
