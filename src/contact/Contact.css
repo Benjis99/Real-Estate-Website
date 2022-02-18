@@ -1,23 +1,37 @@
-.container-contact {
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+.entire-container {
+  margin-left: -100px;
+}
+
+.information-contact {
   background-color: #171f32;
 
   margin: auto;
-  width: 50%;
-  height: 700px;
-  padding: 0%;
-  margin-bottom: 600px;
-  border-radius: 30px;
-  text-align: center;
-  margin-top: 170px;
-  padding: 30px;
+  max-width: 500px;
+  height: 100px;
 
-  padding-right: 80px;
+  margin-top: 220px;
+  padding: 30px;
+}
+
+.container-contact {
+  background-color: #b9b9b9;
+
+  margin: auto;
+  max-width: 500px;
+  height: 520px;
+
+  margin-bottom: 600px;
+  text-align: center;
+
+  padding: 30px;
 }
 
 .contactBannerTitle {
   text-align: center;
-  margin-top: -150px;
-  padding-right: 130px;
+  margin-top: -140px;
+  padding-right: 90px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px white;
 }
@@ -26,11 +40,24 @@
   width: 25px;
 }
 
+.title-contact {
+  font-family: "Playfair Display", serif;
+  margin-top: -30px;
+  color: white;
+  font-size: 44px;
+}
+
+.body-text {
+  margin-top: -20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
 .documents {
   width: 500px;
-  height: 400px;
+  height: 250px;
   resize: none;
-  border-radius: 10px;
+
   margin-top: 30px;
   outline: none;
 }
@@ -91,4 +118,11 @@
 
 .btn-send:hover {
   cursor: pointer;
+}
+
+.send-btn {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-family: "Playfair Display", serif;
 }
