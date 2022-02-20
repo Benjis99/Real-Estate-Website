@@ -1,6 +1,27 @@
 img.realtorprofile{
     height:200px;
     border-radius: 100%;
+    position: relative;
+    align-items: center;
+    margin-left: 10px;
 
+}
 
+.realtorcontainer{
+    width:250px;
+    border: 1px solid #000;
+    height: 400px;
+}
+h4.realtorname{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p.realtorfunction{
+    text-align: center;
+
+}
+
+p.realtorcontact{
+    text-align: center;
 }

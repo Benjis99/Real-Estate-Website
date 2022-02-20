@@ -35,7 +35,8 @@ function listings() {
   realtorimg={samirprofile}
   realtorname="Samir Verchik"
   realtorfunction="REALTOR"
-  realtor
+  realtoremail="Samir@realtor.com"
+  realtornumber="000-000000"
   />
   </div>
 
