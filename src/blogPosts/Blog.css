@@ -14,3 +14,19 @@
 .mainText {
   margin-left: 80px;
 }
+
+.second-row {
+  display: flex;
+}
+
+.middle-text {
+  font-family: Playfair Display;
+  font-size: 72px;
+  padding-left: 20px;
+}
+
+.sortBy {
+  float: right;
+  margin-top: -35px;
+  margin-right: 170px;
+}
