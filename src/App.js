@@ -4,10 +4,20 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Blog from "./blogPosts/Blog";
+<<<<<<< HEAD
 import LoginPage from "./login/LoginPage";
 import Contact from "./contact/Contact";
 import Listings from "./listings/Listings";
 <<<<<<< HEAD
+=======
+import LoginPage from "./LoginPage";
+import Contact from "./contact/Contact";
+import OurServices from "./ourServices/OurServices";
+import LoginPage from "./login/LoginPage";
+import Contact from "./contact/Contact";
+import Listings from "./listings/Listings";
+import About from "./about/About";
+>>>>>>> 989261bd8dbeefe6ca3a07b215da89b18651fa56
 
 =======
 import About from "./about/About";
