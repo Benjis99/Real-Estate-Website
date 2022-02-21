@@ -1,5 +1,8 @@
 import React from 'react'
 import './Listingbanner.css'
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
 
 function Listingbanner() {
   return (
@@ -7,4 +10,4 @@ function Listingbanner() {
   );
 }
 
-export default Listingbanner
+export default Listingbanner;

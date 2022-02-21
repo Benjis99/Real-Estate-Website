@@ -44,12 +44,54 @@ p.listingInformation{
     border-top: 1px solid #000;
     text-align: justify;
     display: block;
-    height:200px;
+    height:150px;
+    margin-bottom:0;
 }
 
 .listingIcons{
-    margin-left: 50px;
-    width:120px;
-    border: 1px solid #000;
-    margin-top: 50px;
+    margin-left: 10px;
+    width:50px;
+    padding:10px;
+    font-size: 13px;
+   
 }
+.listingIcons2{
+    margin-left: 10px;
+    width:50px;
+    padding:10px;
+    font-size: 13px;
+    display: flex;
+}
+.listingIcons3{
+    margin-left: 10px;
+    width:50px;
+    padding:10px;
+    font-size: 13px;
+    display: flex;
+}
+
+.shareIcons{
+    margin-left: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    padding:10px
+}
+.shareContainer{
+    margin-left: 49px;
+    display: flex;
+    width:200px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.flexContainer3{
+    display: flex;
+    margin-top:100px;
+    margin-left:-50px;
+    height:50px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.iconNum{
+    margin-left:5px;
+    color:#FF611D;
+}
+
