@@ -5,6 +5,7 @@ import Listingbanner from './Listingbanner';
 import samirprofile from '../pictures/samirprofile.png'
 import Propertydetails from './Propertydetails';
 import './Listings.css'
+import DatePicker from './DatePicker';
 
 function listings() {
   return (
@@ -58,8 +59,9 @@ cityView="Lalala"
 newConstruction="lalalajskdghsdgjks"
 
 />
- 
 
+<div className='calendar'>
+</div>
     </div>
   );
 }

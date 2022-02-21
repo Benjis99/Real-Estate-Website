@@ -18,7 +18,7 @@ function Propertydetails({yearBuilt,propertyType, daysOnMarket, listingId, condi
            <p className ="pointTitle">PROPERTY TYPE</p>
            <p>{propertyType}</p>
            </div>
-           <div className="flexdetail2">
+           <div className="flexDetail2">
            <p className="pointTitle">DAYS ON MARKET</p>
            <p>{daysOnMarket}</p>
            <p className="pointTitle">LISTINGS ID</p>
