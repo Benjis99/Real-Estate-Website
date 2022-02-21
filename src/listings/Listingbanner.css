@@ -1,0 +1,5 @@
+.listingbanner{
+    background: url("../pictures/listingbanner.jpg") center center;
+    height: 120vh;
+    position: relative;
+  }

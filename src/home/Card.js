@@ -11,17 +11,15 @@ function Card({ src, biddingstamp,title, description, startingPrice, location, b
     <div className="card">
       <h2 class="biddingstamp">{biddingstamp}</h2>
       <img src={src} alt="" />
-      <div className="description">
+      <div className="listingdescription">
         <h2 class="listingtitle">{title}</h2>
         <h3>{location}</h3>
         <p>{description} </p>
       
       <div class="listingicons">
-        <p><BedIcon/> <ShowerIcon/> <HouseIcon/></p></div>
-        <div class="listingsummary"><p>{beds}</p>
-        <p>{baths}</p>
-        <p>{type}</p>
-        </div>
+        <p><BedIcon/>{beds} </p>
+        <p><ShowerIcon/>{baths}</p> 
+        <p><HouseIcon/>{type}</p></div>
         
       <h2 class="listingprice">{startingPrice}</h2>
     
