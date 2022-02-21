@@ -27,7 +27,12 @@ function OurServices() {
         </div>
         <div className="flex-item"></div>
       </div>
-      <div className="servicesSecondHead"></div>
+      <div className="servicesSecondHead">
+        <div className="textSecondHeaderPicture">Find your next home</div>
+        <div className="textSecondHeaderPictureLower">
+          in our <div className="extraText"> Home Listings</div>
+        </div>
+      </div>
 
       <div className="servicesInfoHeader">
         <h1 className="servicesInfoHeaderText">Designed to meet your needs</h1>

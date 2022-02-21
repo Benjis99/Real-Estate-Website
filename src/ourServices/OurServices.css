@@ -11,18 +11,53 @@
 .textHeaderPicture {
   position: absolute;
   color: white;
-  font-size: 78px;
+  font-size: 75px;
   top: 80px;
   left: 280px;
   text-align: right;
   font-family: "Playfair Display", serif;
 }
 .servicesSecondHead {
-  border: px solid red;
-  height: 450px;
+  height: 600px;
   background: url("../pictures/servicesSecondHead.png");
   object-fit: contain;
+  position: relative;
 }
+
+.textSecondHeaderPicture {
+  position: absolute;
+  display: inline-block;
+
+  color: white;
+  font-size: 75px;
+  top: 130px;
+  left: 110px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+}
+.textSecondHeaderPictureLower > .extraText {
+  position: absolute;
+  display: inline;
+  width: 500px;
+
+  color: #ff611d;
+  font-size: 75px;
+  margin-left: 0;
+  font-family: "Playfair Display", serif;
+  text-shadow: 0px 2px 8px rgb(146, 146, 146);
+}
+
+.textSecondHeaderPictureLower {
+  position: absolute;
+
+  color: white;
+  font-size: 75px;
+  top: 210px;
+  left: 230px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+}
+
 .houseIcon {
   border: px solid red;
   background: url("../pictures/houseIcon.png");
@@ -85,7 +120,7 @@
   background-color: #171f32;
 }
 .servicesInfoHeaderText {
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
   color: white;
   display: flex;
   font-weight: normal;
