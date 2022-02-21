@@ -13,9 +13,8 @@ function App() {
     <div>
       <Header />
       <Nav />
-      <Listings />
-      <Footer/>
-
+      <About />
+      <Footer />
     </div>
   );
 }
