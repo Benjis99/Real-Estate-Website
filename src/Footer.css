@@ -11,3 +11,9 @@
   font-family: sans-serif;
   font-size: 12px;
 }
+
+@media screen and (max-width: 428px) {
+  .footer {
+    margin-left: 0px;
+  }
+}
