@@ -1,15 +1,15 @@
 import React from 'react'
 import './Realtor.css'
 
-function Realtor({realtorimg,realtorname, realtorfunction, realtoremail, realtornumber}) {
+function Realtor({realtorImg,realtorName, realtorFunction, realtorEmail, realtorNumber}) {
   return (
-    <div class="Realtor">
+    <div className="Realtor">
 
-      <div class="realtorcontainer">
-     <img class="realtorprofile" src={realtorimg} alt="" />
-    <h4 class="realtorname">{realtorname}</h4>
-    <p class="realtorfunction">{realtorfunction}</p>
-    <p class="realtorcontact">{realtoremail}<p>{realtornumber}</p></p>
+      <div className="realtorContainer">
+     <img className="realtorProfile" src={realtorImg} alt="" />
+    <h4 className="realtorName">{realtorName}</h4>
+    <p className="realtorFunction">{realtorFunction}</p>
+    <p className="realtorContact">{realtorEmail}<p>{realtorNumber}</p></p>
 
     
     </div>

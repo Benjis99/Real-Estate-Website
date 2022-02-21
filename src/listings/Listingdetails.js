@@ -5,19 +5,19 @@ import HouseIcon from '@mui/icons-material/House';
 import ShowerIcon from '@mui/icons-material/Shower';
 import Bed from '@mui/icons-material/Bed';
 
-function Listingdetails({listingtitle, listingaddress, listinginformation}) {
+function Listingdetails({listingTitle, listingAddress, listingInformation}) {
   return (
-    <div class="Listingdetails">
+    <div className="listingDetails">
 
-    <div class="flexcontainer1">
+    <div className="flexContainer1">
 
-    <div class="flexcontainer2">
-    <h1 class="listingtitle">{listingtitle}</h1>
-    <h3 class="listingaddress">{listingaddress}</h3>
+    <div className="flexContainer2">
+    <h1 className="listingTitle">{listingTitle}</h1>
+    <h3 className="listingAddress">{listingAddress}</h3>
     </div>
 
-    <div class="flexcontainer3">
-    <div class="listingicons">
+    <div className="flexContainer3">
+    <div className="listingIcons">
         <HouseIcon/>
         <Bed/>
         <ShowerIcon/>
@@ -25,7 +25,7 @@ function Listingdetails({listingtitle, listingaddress, listinginformation}) {
         </div>
         
     </div>
-    <p class="listinginformation">{listinginformation}</p>
+    <p className="listingInformation">{listingInformation}</p>
     </div>
   )
 }

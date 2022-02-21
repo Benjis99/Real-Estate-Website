@@ -8,16 +8,16 @@ import './Listings.css'
 
 function listings() {
   return (
-    <div class="Listings">
+    <div className="Listings">
     <Listingbanner/>
 
-   <div class="listingcont">
+   <div class="listingCont">
 
-  <div class="cont1">
+  <div className="cont1">
   <Listingdetails
-  listingtitle="Lorem ipsum dolor amet"
-  listingaddress="Lorem ipsum dolor sit amet 2624 st"
-  listinginformation="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+  listingTitle="Lorem ipsum dolor amet"
+  listingAddress="Lorem ipsum dolor sit amet 2624 st"
+  listingInformation="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   At in tellus integer feugiat scelerisque varius. Scelerisque felis imperdiet proin fermentum leo vel. 
   Morbi non arcu risus quis varius. Et tortor consequat id porta nibh venenatis cras.
@@ -31,33 +31,31 @@ function listings() {
   />
   </div>
 
-  <div class="cont2">
+  <div className="cont2">
   <Realtor
-  realtorimg={samirprofile}
-  realtorname="Samir Verchik"
-  realtorfunction="REALTOR"
-  realtoremail="Samir@realtor.com"
-  realtornumber="000-000000"
+  realtorImg={samirprofile}
+  realtorName="Samir Verchik"
+  realtorFunction="REALTOR"
+  realtorEmail="Samir@realtor.com"
+  realtorNumber="000-000000"
   />
   </div>
 
  </div>
 
 <Propertydetails
-yearbuilt="1987"
-propertytype="Lorem Ipsum"
-daysonmarket="Lorem Ipsum"
-listingid="8457359"
+yearBuilt="1987"
+propertyType="Lorem Ipsum"
+daysOnMarket="Lorem Ipsum"
+listingId="8457359"
 conditioner="Lorem Ipsum"
 patio="Lorem Ipsum"
 pool="Lorem Ipsum"
 conditioner="Lorem Ipsum"
 garage="Lorem Ipsum"
-waterview="Lorem Ipsum"
-cityview="Lorem Ipsum"
-newconstruction="Lorem Ipsum"
-
-
+waterView="Lorem Ipsum"
+cityView="Lalala"
+newConstruction="lalalajskdghsdgjks"
 
 />
  

@@ -3,7 +3,7 @@ import './Listingbanner.css'
 
 function Listingbanner() {
   return (
-    <div class="listingbanner"></div>
+    <div className="listingBanner"></div>
   );
 }
 
