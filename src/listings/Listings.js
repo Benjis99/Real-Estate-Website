@@ -4,6 +4,7 @@ import Realtor from './Realtor'
 import Listingbanner from './Listingbanner';
 import samirprofile from '../pictures/samirprofile.png'
 import Propertydetails from './Propertydetails';
+import './Listings.css'
 
 function listings() {
   return (
@@ -42,7 +43,23 @@ function listings() {
 
  </div>
 
-<Propertydetails/>
+<Propertydetails
+yearbuilt="1987"
+propertytype="Lorem Ipsum"
+daysonmarket="Lorem Ipsum"
+listingid="8457359"
+conditioner="Lorem Ipsum"
+patio="Lorem Ipsum"
+pool="Lorem Ipsum"
+conditioner="Lorem Ipsum"
+garage="Lorem Ipsum"
+waterview="Lorem Ipsum"
+cityview="Lorem Ipsum"
+newconstruction="Lorem Ipsum"
+
+
+
+/>
  
 
     </div>

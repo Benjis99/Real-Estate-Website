@@ -1,0 +1,58 @@
+.Propertydetails{
+    background-color: #F5F5F5;
+   
+}
+
+.detailscontainer{
+    width:1000px;
+    display: flex;
+}
+
+h2.detailstitle{
+    padding-left:50px;
+    padding-top:20px;
+    border: 2px solid #000;
+}
+
+.section1{
+    display: flex;
+    border: 2px solid #000;
+}
+
+.section2{
+    padding-left:50px;
+    border: 2px solid #000;
+}
+
+.section3{
+    display: flex;
+    border: 2px solid #000;
+}
+
+.flexdetail{
+    margin-left:50px;
+    text-align: left;
+    margin-right:50px;
+}
+.flexdetail2{
+    margin-left:400px;
+    text-align: left;
+    margin-right:50px;
+}
+
+p.pointtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sideinfo{
+    border: 2px solid #000;
+}
+
+
+h1.sidetitle{
+    width: 500px;
+    border: 2px solid #000;
+    height:100;
+    margin-left: 50px;
+}
