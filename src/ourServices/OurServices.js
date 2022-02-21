@@ -87,6 +87,42 @@ function OurServices() {
           <h1 className="servicesInfoHeaderText">Meet your realtors</h1>
         </div>
       </div>
+      <div className="servicesInfoRealtors">
+        <div className="flex-container-realtors">
+          <div className="flex-item-realtors">1</div>
+
+          <div className="flex-item-realtors">
+            2<div className="realtorPicOne"></div>
+            <h1>test</h1>
+          </div>
+          
+          <div className="flex-item-realtors">
+            3<div className="realtorPicTwo"></div>
+          </div>
+
+          <div className="flex-item-realtors">
+            4<div className="realtorPicThree"></div>
+          </div>
+          <div className="flex-item-realtors">
+            5<div className="realtorPicTwo"></div>
+          </div>
+          <div className="flex-item-realtors">6</div>
+          <div className="flex-item-realtors">7</div>
+          <div className="flex-item-realtors">
+            8<div className="realtorPicThree"></div>
+          </div>
+          <div className="flex-item-realtors">
+            9<div className="realtorPicOne"></div>
+          </div>
+          <div className="flex-item-realtors">
+            10<div className="realtorPicTwo"></div>
+          </div>
+          <div className="flex-item-realtors">
+            11<div className="realtorPicThree"></div>
+          </div>
+          <div className="flex-item-realtors">12</div>
+        </div>
+      </div>
     </div>
   );
 }
