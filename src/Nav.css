@@ -4,9 +4,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-.none {
-}
-
 .navigation {
   background-color: #171f32;
   height: 40px;
@@ -36,10 +33,20 @@
   background-color: rgb(136, 136, 136);
 }
 
+.nav-text {
+  font-family: "Roboto", sans-serif;
+}
+
 @media screen and (max-width: 428px) {
   .test {
-    margin-left: -65px;
     align-items: center;
-    width: 420px;
+    width: 526px;
+    margin-left: -45px;
+  }
+  .test > button {
+    margin: 0px;
+    margin-left: -10px;
+  }
+  .nav-text {
   }
 }
