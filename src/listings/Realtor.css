@@ -6,7 +6,7 @@ img.realtorProfile{
     border-radius: 100%;
     position: relative;
     left:15px;
-    
+    filter: grayscale(100%);
 
 }
 

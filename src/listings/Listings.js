@@ -6,11 +6,12 @@ import samirprofile from '../pictures/samirprofile.png'
 import Propertydetails from './Propertydetails';
 import './Listings.css'
 import DatePicker from './DatePicker';
+import Slider from '../home/Slider';
 
 function listings() {
   return (
     <div className="Listings">
-    <Listingbanner/>
+    <Slider/>
 
    <div class="listingCont">
 
