@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 
-.Listingdetails{
+.listingDetails{
     margin-top:10px;
     width:1100px;
 }
 
-.flexcontainer1{
+.flexContainer1{
     display: flex;
 }
-h1.listingtitle{
+h1.listingTitle{
     margin-top: 30px;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 50px;
     margin-bottom: 0px;
     font-family: 'Playfair Display', serif;
@@ -21,9 +21,9 @@ h1.listingtitle{
    
 }
 
-h3.listingaddress{
+h3.listingAddress{
     padding-top:5px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Playfair Display', serif;
     margin-left: 50px;
     margin-top: 0;
@@ -34,21 +34,64 @@ h3.listingaddress{
 }
 
 
-p.listinginformation{
+p.listingInformation{
     font-family: 'Roboto', sans-serif;
     margin-left: 50px;
     font-size: 15px;
+    font-weight: 300;
     width:1000px;
     padding-top:15px;
     border-top: 1px solid #000;
     text-align: justify;
     display: block;
-    height:200px;
+    height:150px;
+    margin-bottom:0;
 }
 
-.listingicons{
-    margin-left: 50px;
-    width:120px;
-    border: 1px solid #000;
-    margin-top: 50px;
+.listingIcons{
+    margin-left: 10px;
+    width:50px;
+    padding:10px;
+    font-size: 13px;
+   
 }
+.listingIcons2{
+    margin-left: 10px;
+    width:50px;
+    padding:10px;
+    font-size: 13px;
+    display: flex;
+}
+.listingIcons3{
+    margin-left: 10px;
+    width:50px;
+    padding:10px;
+    font-size: 13px;
+    display: flex;
+}
+
+.shareIcons{
+    margin-left: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    padding:10px
+}
+.shareContainer{
+    margin-left: 49px;
+    display: flex;
+    width:200px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.flexContainer3{
+    display: flex;
+    margin-top:100px;
+    margin-left:-50px;
+    height:50px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.iconNum{
+    margin-left:5px;
+    color:#FF611D;
+}
+

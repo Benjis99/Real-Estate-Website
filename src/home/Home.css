@@ -13,7 +13,7 @@
   width: auto;
 }
 
-h1.boxtitle{
+h1.boxTitle{
   font-size: 50px;
   line-height: 0;
   font-family: 'Playfair Display', serif;
@@ -27,7 +27,7 @@ h1.boxtitle{
 
 
 
-h1.titlesecond{
+h1.titleSecond{
   font-size: 60px;
   line-height: 0;
   font-family: 'Playfair Display', serif;
@@ -39,7 +39,7 @@ h1.titlesecond{
   margin-right: 50px;
 }
 
-.textbox{
+.textBox{
   text-align: justify;
   padding:15px;
   padding-left:50px;
@@ -56,7 +56,7 @@ hr{
   width:93%;
 }
 
-h1.titlethird{
+h1.titleThird{
   font-size: 60px;
   line-height: 0;
   font-family: 'Playfair Display', serif;

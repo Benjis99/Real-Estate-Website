@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.containerslogan{
+.containerSlogan{
   display: flex;
   text-align: right;
 }
@@ -30,7 +30,7 @@ h1.slogan{
 }
 
 
-.bannerbutton{
+.bannerButton{
   font-size: 25px;
   position: absolute;
  left:27%;
@@ -44,7 +44,8 @@ h1.slogan{
  /*font-family: 'Roboto', sans-serif;*/
  transition: transform 100ms ease-in;
 }
-.bannerbutton:hover{
+
+.bannerButton:hover{
   color: #000;
   transform: scale(1.06);
 }

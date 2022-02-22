@@ -7,16 +7,15 @@ import house1 from "../pictures/house1.jpg";
 import house2 from "../pictures/house2.jpg";
 import house3 from "../pictures/house3.jpg";
 import house4 from "../pictures/house4.jpg";
-import BathtubIcon from '@mui/icons-material/Bathtub';
 
 function Home() {
   return (
     <div className="home">
       <Banner />
 
-      <h1 class="boxtitle">A place for everyone.</h1>
+      <h1 className="boxTitle">A place for everyone.</h1>
 
-      <div class="textbox">
+      <div className="textBox">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. At in
@@ -35,13 +34,13 @@ function Home() {
         </p>
       </div>
 
-      <h1 class="titlesecond">Top listings</h1>
+      <h1 className="titleSecond">Top listings</h1>
       <hr></hr>
 
       <div className="displaySection">
         <Card
           src={house1}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="1871 N Stanley Ave"
           description="Forged into the hillside above Sunset, this stunning new construction,
           truly unique warm contemporary architectural provides unmatched security and privacy 
@@ -59,7 +58,7 @@ function Home() {
         />
         <Card
           src={house2}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="1115 Wallace Rdg"
           description="One of the most sophisticated design homes currently available. 
           Rebuilt in 2016, this trophy property offers a classic Modern architecture that makes an unparalleled statement of vision and design while 
@@ -76,7 +75,7 @@ function Home() {
       
           <Card
           src={house2}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="6525 Point Lechuza Dr"
           description="A perfect combination of rare natural beauty and iconic design, 
           the Koenig Beach House is the last built project from world renowned architect Pierre Koenig,
@@ -94,12 +93,12 @@ function Home() {
       </div>
 
       <Secondbanner/>
-      <h1 class="titlethird">Popular right now</h1>
+      <h1 className="titleThird">Popular right now</h1>
       <hr></hr>
       <div className="displaySection">
         <Card
           src={house3}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="9344 Nightgale Dr"
           description="Capturing extraordinary views from a private promontory in the Bird Streets, 
           this spectacular new contemporary estate was envisioned by architect Zoltan Pali and Brough to life by master home builder Dugally Oberfeld. 
@@ -114,7 +113,7 @@ function Home() {
         
         <Card
           src={house4}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="3201 Campanil Dr"
           description="Campanil Hill is widely recognized as one of the world's preeminent ocean view locations and its single most private and valued property is now available for purchase.
           Perched above the Santa Barbara coastal bluffs at the farthest end of ultra-private Campanil Drive, enjoy sweeping, 
@@ -130,7 +129,7 @@ function Home() {
 
         <Card
           src={house4}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="1231 Lago Vista Dr"
           description="Set behind gates surrounded by tall hedging and abundant greenery, 1231 Lago Vista Dr is supremely set in the highly coveted 90210 zip code of Beverly Hills. 
           A true display of luxury showcasing 12,800 square feet of sleek design and exquisite finishes on 2 parcels of land totaling over an acre. 
@@ -143,7 +142,7 @@ function Home() {
         />
         <Card
           src={house3}
-          biddingstamp ="Active bidding"
+          biddingStamp ="Active bidding"
           title="2505 Summitridge Dr"
           description="7.5 ACRE world class compound offering ample space and stunning panoramic views set in the exclusive guard gated Bella Vista Estates.
            Behind personal gates providing ample security and privacy, 2505 Summitridge Dr hosts the most impressive outdoor setting in all of Los Angeles.

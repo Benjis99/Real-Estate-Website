@@ -25,7 +25,7 @@
   width: 100%;
 }
 
-h2.biddingstamp{
+h2.biddingStamp{
   position:absolute;
   background-color: #FF611D;
   padding:10px;
@@ -35,14 +35,14 @@ h2.biddingstamp{
 
 }
 
-.listingtitle{
+.listingTitle{
   font-size: 30px;
   color: #FF611D;
   font-family: 'Playfair Display', serif;
   
 }
 
-.listingprice{
+.listingPrice{
   font-size: 25px;
   color: #fff;
   text-align: right;
@@ -51,14 +51,14 @@ h2.biddingstamp{
 
 }
 
-.listingdescription {
+.listingDescription {
   text-align: left;
   padding: 20px;
   padding-top:0px;
   font-size: 15px;
 }
 
-.listingicons{
+.listingIcons{
   display: flex;
 letter-spacing: 0.5px;
 font-size: 10px;

@@ -4,28 +4,53 @@ import BedIcon from '@mui/icons-material/Bed';
 import HouseIcon from '@mui/icons-material/House';
 import ShowerIcon from '@mui/icons-material/Shower';
 import Bed from '@mui/icons-material/Bed';
+import SendIcon from '@mui/icons-material/Send';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import PrintIcon from '@mui/icons-material/Print';
 
-function Listingdetails({listingtitle, listingaddress, listinginformation}) {
+function Listingdetails({listingTitle, listingAddress, listingInformation}) {
   return (
-    <div class="Listingdetails">
+    <div className="listingDetails">
 
-    <div class="flexcontainer1">
+    <div className="flexContainer1">
 
-    <div class="flexcontainer2">
-    <h1 class="listingtitle">{listingtitle}</h1>
-    <h3 class="listingaddress">{listingaddress}</h3>
+    <div className="flexContainer2">
+    <h1 className="listingTitle">{listingTitle}</h1>
+    <h3 className="listingAddress">{listingAddress}</h3>
     </div>
 
-    <div class="flexcontainer3">
-    <div class="listingicons">
+    <div className="flexContainer3">
+    <div className="listingIcons">
         <HouseIcon/>
-        <Bed/>
-        <ShowerIcon/>
+        <p className='iconNum'>8</p>
         </div>
+        <div className="listingIcons2">
+        <Bed/>
+        <p className='iconNum'>7</p>
+        </div>
+        <div className="listingIcons3">
+        <ShowerIcon/>
+        <p className='iconNum'>4</p>
+        </div>
+       
         </div>
         
     </div>
-    <p class="listinginformation">{listinginformation}</p>
+    <p className="listingInformation">{listingInformation}
+    </p>
+
+    <p className='shareContainer'>
+    <p className='shareIcons'>
+      <FavoriteIcon/>
+      </p>
+      <p className='shareIcons'>
+      <SendIcon/>
+      </p>
+      <p className='shareIcons'>
+      <PrintIcon/>
+      </p>
+
+    </p>
     </div>
   )
 }
