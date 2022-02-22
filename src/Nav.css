@@ -40,13 +40,11 @@
 @media screen and (max-width: 428px) {
   .test {
     align-items: center;
-    width: 526px;
-    margin-left: -45px;
+    width: 100%;
+    margin-left: -2px;
   }
   .test > button {
     margin: 0px;
     margin-left: -10px;
-  }
-  .nav-text {
   }
 }
