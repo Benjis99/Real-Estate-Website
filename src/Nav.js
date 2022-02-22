@@ -15,20 +15,20 @@ function Nav() {
             onClick={() => history("/")}
             variant="outlined"
           >
-            <p className="nav-text">Home</p>
+            Home
           </Button>
 
           <Button onClick={() => history("/listings")} variant="outlined">
-            <p className="nav-text">Listings</p>
+            Listings
           </Button>
           <Button onClick={() => history("/ourServices")} variant="outlined">
-            <p className="nav-text">Services</p>
+            Services
           </Button>
           <Button onClick={() => history("/about")} variant="outlined">
-            <p className="nav-text">About us</p>
+            About us
           </Button>
           <Button onClick={() => history("/blog")} variant="outlined">
-            <p className="nav-text">Blog</p>
+            Blog
           </Button>
         </div>
       </div>
