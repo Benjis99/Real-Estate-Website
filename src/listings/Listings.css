@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 
-
-
-.listingCont{
-display: flex;
+.listingCont {
+  display: flex;
 }
 
-.cont2{
-    margin-left:70px;
-    border-left: 1px solid rgb(0, 0, 0);
-    padding:10px;
-    padding-left:50px;
-    margin-top:30px;
-    margin-bottom:50px;
+.cont2 {
+  margin-left: 70px;
+  border-left: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  padding-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.search-btn {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }

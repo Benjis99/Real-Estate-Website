@@ -1,123 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 
-
-.propertyDetails{
-    background-color: #F5F5F5;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+.propertyDetails {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
-.detailsContainer{
-    width:700px;
-    display: flex;
+.detailsContainer {
+  width: 700px;
+  display: flex;
 }
 
-h1.detailsTitle{
-    padding-top:20px;
-    padding-bottom:5px;
-    border-bottom: 1px solid #000;
-    margin-left:50px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-
+h1.detailsTitle {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  margin-left: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
-.section1{
-    display: flex;
-    margin-left:50px;
-    padding-left:0;
-    margin-bottom:30px;
+.section1 {
+  display: flex;
+  margin-left: 50px;
+  padding-left: 0;
+  margin-bottom: 30px;
 }
 
-.section2{
-   
-    margin-left:50px;
-    color:#FF611D;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+.section2 {
+  margin-left: 50px;
+  color: #ff611d;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
 
-.section3{
-    display: flex;
-    margin-left:50px;
-
+.section3 {
+  display: flex;
+  margin-left: 50px;
 }
 
-.flexDetail1{
-    font-size: 22px;
-    margin-left:0px;
-    text-align: left;
-    width:300px;
-    margin-right:50px;
-    color:#FF611D;
-    font-weight: 300;
-   
+.flexDetail1 {
+  font-size: 22px;
+  margin-left: 0px;
+  text-align: left;
+  width: 300px;
+  margin-right: 50px;
+  color: #ff611d;
+  font-weight: 300;
 }
-.flexDetail2{
-    margin-left:200px;
-    text-align: left;
-    margin-right:50px;
-    width:200px;
-    color:#FF611D;
-    font-size: 22px;
-   
-
+.flexDetail2 {
+  margin-left: 200px;
+  text-align: left;
+  margin-right: 50px;
+  width: 200px;
+  color: #ff611d;
+  font-size: 22px;
 }
 
-.flexDetail3{
-    margin-left:0px;
-    text-align: left;
-    color:#FF611D;
-    font-size: 22px;
-    width:300px;
-    
+.flexDetail3 {
+  margin-left: 0px;
+  text-align: left;
+  color: #ff611d;
+  font-size: 22px;
+  width: 300px;
 }
-.flexDetail4{
-  
-    text-align: left;
-    margin-top:33px;
-    margin-left:255px;
-    color:#FF611D;
-    width:200px;
-    font-size: 22px;
+.flexDetail4 {
+  text-align: left;
+  margin-top: 33px;
+  margin-left: 255px;
+  color: #ff611d;
+  width: 200px;
+  font-size: 22px;
 }
 
-
-p.pointTitle{
-    font-size: 15px;
-    width:300px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #000;
-    
+p.pointTitle {
+  font-size: 15px;
+  width: 300px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000;
 }
 
-p.pointTitle2{
-    font-size: 15px;
-    border-bottom: 1px solid #000;
-    width:800px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #000;
+p.pointTitle2 {
+  font-size: 15px;
+  border-bottom: 1px solid #000;
+  width: 800px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000;
 }
 
-.sideInfo{
-    margin-left:70px;
-    padding-top: 14px;
-    height:300px;
+.sideInfo {
+  margin-left: 70px;
+  padding-top: 14px;
+  height: 300px;
 }
 
-
-h1.sideTitle{
-    width: 600px;
-    border-bottom: 1px solid #000;
-    margin-left: 0px;
-    padding-bottom:5px;
-    padding-top:7px;
-    font-family: 'Playfair Display', serif;
+h1.sideTitle {
+  width: 600px;
+  border-bottom: 1px solid #000;
+  margin-left: 0px;
+  padding-bottom: 5px;
+  padding-top: 7px;
+  font-family: "Playfair Display", serif;
 }
 
-.sideDescription{
-    font-size: 15px;
+.sideDescription {
+  font-size: 15px;
+  padding-bottom: 40px;
 }

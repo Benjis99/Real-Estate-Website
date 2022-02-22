@@ -18,8 +18,12 @@ function Header() {
       </div>
 
       <div className="icons">
-        <ContactPageIcon /> <h4 className="iconText">Contact us</h4>
-        <LoginIcon /> <h4 className="iconText">Login</h4>
+        <Button className="icon-btn">
+          <ContactPageIcon /> <h4 className="iconText">Contact us</h4>
+        </Button>
+        <Button className="icon-btn">
+          <LoginIcon /> <h4 className="iconText">Login</h4>
+        </Button>
       </div>
     </div>
   );
