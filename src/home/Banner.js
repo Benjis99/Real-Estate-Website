@@ -12,7 +12,7 @@ function Banner() {
           Let us guide <br></br>you home.
         </h1>
       </div>
-      <button onClick={() => history("/listings")} class="bannerbutton">
+      <button onClick={() => history("/listings")} class="bannerButton">
         Get started
       </button>
     </div>

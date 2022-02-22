@@ -21,7 +21,7 @@ function Nav() {
           <Button onClick={() => history("/listings")} variant="outlined">
             Listings
           </Button>
-          <Button onClick={() => history("/services")} variant="outlined">
+          <Button onClick={() => history("/ourServices")} variant="outlined">
             Services
           </Button>
           <Button onClick={() => history("/about")} variant="outlined">
