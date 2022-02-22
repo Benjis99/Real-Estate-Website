@@ -1,17 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+
 .servicesHeadContainer {
   border: px solid red;
+  position: relative;
   height: 450px;
   background: url("../pictures/OurServicesHeader.png");
   object-fit: contain;
 }
+.textHeaderPicture {
+  position: absolute;
+  color: white;
+  font-size: 75px;
+  top: 80px;
+  left: 280px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+}
 .servicesSecondHead {
-  border: px solid red;
-  height: 450px;
+  height: 600px;
   background: url("../pictures/servicesSecondHead.png");
   object-fit: contain;
+  position: relative;
 }
+
+.textSecondHeaderPicture {
+  position: absolute;
+  display: inline-block;
+
+  color: white;
+  font-size: 75px;
+  top: 130px;
+  left: 110px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+}
+.textSecondHeaderPictureLower > .extraText {
+  position: absolute;
+  display: inline;
+  width: 500px;
+
+  color: #ff611d;
+  font-size: 75px;
+  margin-left: 0;
+  font-family: "Playfair Display", serif;
+  text-shadow: 0px 2px 8px rgb(146, 146, 146);
+}
+
+.textSecondHeaderPictureLower {
+  position: absolute;
+
+  color: white;
+  font-size: 75px;
+  top: 210px;
+  left: 230px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+}
+
 .houseIcon {
-  border: 1px solid red;
+  border: px solid red;
   background: url("../pictures/houseIcon.png");
   height: 64px;
   width: 64px;
@@ -19,15 +67,16 @@
   float: left;
 }
 .propteryFinder {
-  border: 1px solid red;
+  border: px solid red;
   background: url("../pictures/propertyFinder.png");
   height: 64px;
   width: 64px;
   background-repeat: no-repeat;
   float: left;
+  font-family: "Playfair Display", serif;
 }
 .alertBell {
-  border: 1px solid red;
+  border: px solid red;
   background: url("../pictures/alertBell.png");
   height: 64px;
   width: 64px;
@@ -35,7 +84,7 @@
   float: left;
 }
 .servicesHeaderText {
-  border: 2px solid red;
+  border: px solid red;
   height: 300px;
   display: flex;
   margin-left: auto;
@@ -43,12 +92,12 @@
   justify-content: left;
 }
 .servicesTextBox {
-  border: 2px solid blue;
+  border: px solid blue;
   height: 200px;
   display: flex;
 }
 .servicesInformation {
-  border: 2px solid green;
+  border: px solid green;
   height: 400px;
 }
 .servicesHeaderH1 {
@@ -59,18 +108,19 @@
 }
 
 .servicesInfoHeader {
-  border: px solid black;
+  border: 1px solid black;
   display: flex;
   height: 100px;
   width: 700px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   justify-content: center;
   background-color: #171f32;
 }
 .servicesInfoHeaderText {
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
   color: white;
   display: flex;
   font-weight: normal;
@@ -83,8 +133,13 @@
   font-size: 40px;
 }
 .servicesInfoContainer {
-  border: 1px solid green;
-  height: 400px;
+  border: px solid green;
+  background-color: #f4f4f4;
+  height: 300px;
+}
+.servicesInfoRealtors {
+  border: px solid green;
+  height: 1100px;
 }
 
 .flex-item {
@@ -114,7 +169,7 @@
 .flex-item-info {
   padding: 1rem;
   margin: 1rem;
-  border: 1px solid red;
+  border: px solid red;
   background-color: #f4f4f4;
   font-size: 20px;
   flex-grow: 1;
@@ -146,3 +201,65 @@
   box-shadow: none;
 }
 
+.flex-container-realtors {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border: px solid red;
+}
+.flex-item-realtors {
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+  height: 400px;
+  border: px solid red;
+  background-color: white;
+  font-size: 20px;
+}
+
+.flex-item-realtors > h1 {
+  color: blue;
+}
+
+.realtorPicOne {
+  height: 221px;
+  background: url("../pictures/Samir.png") center center;
+  background-repeat: no-repeat;
+}
+.realtorPicTwo {
+  height: 221px;
+  background: url("../pictures/Michelle.png") center center;
+  background-repeat: no-repeat;
+}
+
+.realtorPicThree {
+  height: 221px;
+  background: url("../pictures/Jerry.png") center center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 428px) {
+  .flex-item-realtors:nth-child(1),
+  .flex-item-realtors:nth-child(6),
+  .flex-item-realtors:nth-child(7),
+  .flex-item-realtors:nth-child(12) {
+    display: none;
+  }
+
+  .flex-container-realtors {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: px solid red;
+  }
+
+  .flex-item-realtors {
+    padding: 1rem;
+    margin: 1rem;
+    width: 250px;
+    height: 400px;
+    border: px solid red;
+    background-color: white;
+    font-size: 20px;
+  }
+}

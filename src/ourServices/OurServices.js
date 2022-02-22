@@ -5,7 +5,11 @@ import OurServicesHeader from "../pictures/OurServicesHeader.png";
 function OurServices() {
   return (
     <div>
-      <div className="servicesHeadContainer"></div>
+      <div className="servicesHeadContainer">
+        <div className="textHeaderPicture">
+          Our<br></br>Services
+        </div>
+      </div>
 
       <div className="flex-container">
         <div className="flex-item"></div>
@@ -23,14 +27,19 @@ function OurServices() {
         </div>
         <div className="flex-item"></div>
       </div>
-      <div className="servicesSecondHead"></div>
+      <div className="servicesSecondHead">
+        <div className="textSecondHeaderPicture">Find your next home</div>
+        <div className="textSecondHeaderPictureLower">
+          in our <div className="extraText"> Home Listings</div>
+        </div>
+      </div>
 
       <div className="servicesInfoHeader">
         <h1 className="servicesInfoHeaderText">Designed to meet your needs</h1>
       </div>
       <div className="servicesInfoContainer">
         <div className="flex-container-info">
-          <div className="flex-item-info">1</div>
+          <div className="flex-item-info"></div>
           <div className="flex-item-info">
             <div className="houseIcon"></div>
             <p className="servicesIconTitle">LIST</p>{" "}
@@ -81,10 +90,93 @@ function OurServices() {
             </p>
           </div>
 
-          <div className="flex-item-info">5</div>
+          <div className="flex-item-info"></div>
         </div>
-        <div className="servicesInfoHeader">
-          <h1 className="servicesInfoHeaderText">Meet your realtors</h1>
+      </div>
+      <div className="servicesInfoHeader">
+        <h1 className="servicesInfoHeaderText">Meet your realtors</h1>
+      </div>
+      <div className="servicesInfoRealtors">
+        <div className="flex-container-realtors">
+          <div className="flex-item-realtors"></div>
+
+          <div className="flex-item-realtors">
+            <div className="realtorPicOne"></div>
+            <h4 className="realtorname">SAMIR VERCHIK</h4>
+            <p className="realtorfunction">REALTOR</p>
+            <p className="realtorcontact">
+              Samir@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+
+          <div className="flex-item-realtors">
+            <div className="realtorPicTwo"></div>
+            <h4 className="realtorname">MICHELLE JOHNSSON</h4>
+            <p className="realtorfunction">REALTOR</p>
+            <p className="realtorcontact">
+              Michelle@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+
+          <div className="flex-item-realtors">
+            <div className="realtorPicThree"></div>
+            <h4 className="realtorname">JERRY MORGANS</h4>
+            <p className="realtorfunction">CEO</p>
+            <p className="realtorcontact">
+              Jerry@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+          <div className="flex-item-realtors">
+            <div className="realtorPicTwo"></div>
+            <h4 className="realtorname">MICHELLE JOHNSSON</h4>
+            <p className="realtorfunction">REALTOR</p>
+            <p className="realtorcontact">
+              Michelle@realtors.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+          <div className="flex-item-realtors"></div>
+          <div className="flex-item-realtors"></div>
+          <div className="flex-item-realtors">
+            <div className="realtorPicThree"></div>
+            <h4 className="realtorname">JERRY MORGANS</h4>
+            <p className="realtorfunction">CEO</p>
+            <p className="realtorcontact">
+              Jerry@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+          <div className="flex-item-realtors">
+            <div className="realtorPicOne"></div>
+            <h4 className="realtorname">SAMIR VERCHIK</h4>
+            <p className="realtorfunction">REALTOR</p>
+            <p className="realtorcontact">
+              Samir@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+          <div className="flex-item-realtors">
+            <div className="realtorPicTwo"></div>
+            <h4 className="realtorname">MICHELLE JOHNSSON</h4>
+            <p className="realtorfunction">REALTOR</p>
+            <p className="realtorcontact">
+              Michelle@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+          <div className="flex-item-realtors">
+            <div className="realtorPicThree"></div>
+            <h4 className="realtorname">JERRY MORGANS</h4>
+            <p className="realtorfunction">CEO</p>
+            <p className="realtorcontact">
+              Jerry@realtor.com<br></br>
+              073-999 99 99
+            </p>
+          </div>
+          <div className="flex-item-realtors"></div>
         </div>
       </div>
     </div>

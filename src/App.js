@@ -30,6 +30,10 @@ function App() {
 
         <Footer />
       </Router>
+      <Header />
+      <Nav />
+      <OurServices />
+      <Footer />
     </div>
   );
 }
