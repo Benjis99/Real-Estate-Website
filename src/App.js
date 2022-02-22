@@ -9,13 +9,27 @@ import Listings from "./listings/Listings";
 import About from "./about/About";
 import OurServices from "./ourServices/OurServices";
 import Blog from "./blogPosts/Blog";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
 function App() {
   return (
     <div>
-      <Header />
-      <Nav />
-      <Blog />
-      <Footer />
+      <Router>
+        <Header />
+        <Nav />
+
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/listings" element={<Listings />} />
+          <Route exact path="/ourServices" element={<OurServices />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/LoginPage" element={<LoginPage />} />
+        </Routes>
+
+        <Footer />
+      </Router>
     </div>
   );
 }
