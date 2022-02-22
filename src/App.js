@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 function App() {
   return (
-    <div>
+    <div className="app">
       <Router>
         <Header />
         <Nav />
@@ -30,10 +30,6 @@ function App() {
 
         <Footer />
       </Router>
-      <Header />
-      <Nav />
-      <OurServices />
-      <Footer />
     </div>
   );
 }
