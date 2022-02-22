@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
 import './DatePicker.css';
-import "react-date-range/dist/styles.css"
-import "react-date-range/dist/theme/default.css"
-import {DateRangePicker} from 
-"react-date-range";
+
+
 
 function DatePicker() {
 const [startDate, setStartDate] = useState (new Date());

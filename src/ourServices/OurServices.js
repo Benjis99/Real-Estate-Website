@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurServices.css";
+import "../listings/Realtor.css";
 import OurServicesHeader from "../pictures/OurServicesHeader.png";
 
 function OurServices() {
@@ -102,9 +103,9 @@ function OurServices() {
 
           <div className="flex-item-realtors">
             <div className="realtorPicOne"></div>
-            <h4 className="realtorname">SAMIR VERCHIK</h4>
-            <p className="realtorfunction">REALTOR</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">SAMIR VERCHIK</h4>
+            <p className="realtorFunction">REALTOR</p>
+            <p className="realtorContact">
               Samir@realtor.com<br></br>
               073-999 99 99
             </p>
@@ -112,9 +113,9 @@ function OurServices() {
 
           <div className="flex-item-realtors">
             <div className="realtorPicTwo"></div>
-            <h4 className="realtorname">MICHELLE JOHNSSON</h4>
-            <p className="realtorfunction">REALTOR</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">MICHELLE JOHNSSON</h4>
+            <p className="realtorFunction">REALTOR</p>
+            <p className="realtorContact">
               Michelle@realtor.com<br></br>
               073-999 99 99
             </p>
@@ -122,18 +123,18 @@ function OurServices() {
 
           <div className="flex-item-realtors">
             <div className="realtorPicThree"></div>
-            <h4 className="realtorname">JERRY MORGANS</h4>
-            <p className="realtorfunction">CEO</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">JERRY MORGANS</h4>
+            <p className="realtorFunction">CEO</p>
+            <p className="realtorContact">
               Jerry@realtor.com<br></br>
               073-999 99 99
             </p>
           </div>
           <div className="flex-item-realtors">
             <div className="realtorPicTwo"></div>
-            <h4 className="realtorname">MICHELLE JOHNSSON</h4>
-            <p className="realtorfunction">REALTOR</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">MICHELLE JOHNSSON</h4>
+            <p className="realtorFunction">REALTOR</p>
+            <p className="realtorContact">
               Michelle@realtors.com<br></br>
               073-999 99 99
             </p>
@@ -142,36 +143,36 @@ function OurServices() {
           <div className="flex-item-realtors"></div>
           <div className="flex-item-realtors">
             <div className="realtorPicThree"></div>
-            <h4 className="realtorname">JERRY MORGANS</h4>
-            <p className="realtorfunction">CEO</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">JERRY MORGANS</h4>
+            <p className="realtorFunction">CEO</p>
+            <p className="realtorContact">
               Jerry@realtor.com<br></br>
               073-999 99 99
             </p>
           </div>
           <div className="flex-item-realtors">
             <div className="realtorPicOne"></div>
-            <h4 className="realtorname">SAMIR VERCHIK</h4>
-            <p className="realtorfunction">REALTOR</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">SAMIR VERCHIK</h4>
+            <p className="realtorFunction">REALTOR</p>
+            <p className="realtorContact">
               Samir@realtor.com<br></br>
               073-999 99 99
             </p>
           </div>
           <div className="flex-item-realtors">
             <div className="realtorPicTwo"></div>
-            <h4 className="realtorname">MICHELLE JOHNSSON</h4>
-            <p className="realtorfunction">REALTOR</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">MICHELLE JOHNSSON</h4>
+            <p className="realtorFunction">REALTOR</p>
+            <p className="realtorContact">
               Michelle@realtor.com<br></br>
               073-999 99 99
             </p>
           </div>
           <div className="flex-item-realtors">
             <div className="realtorPicThree"></div>
-            <h4 className="realtorname">JERRY MORGANS</h4>
-            <p className="realtorfunction">CEO</p>
-            <p className="realtorcontact">
+            <h4 className="realtorName">JERRY MORGANS</h4>
+            <p className="realtorFunction">CEO</p>
+            <p className="realtorContact">
               Jerry@realtor.com<br></br>
               073-999 99 99
             </p>

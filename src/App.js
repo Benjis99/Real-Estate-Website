@@ -9,6 +9,7 @@ import Listings from "./listings/Listings";
 import About from "./about/About";
 import OurServices from "./ourServices/OurServices";
 import Blog from "./blogPosts/Blog";
+
 function App() {
   return (
     <div>
