@@ -8,7 +8,6 @@ function Contact() {
     <div className="contact">
       <ContactBanner />
       <section className="entire-container">
-        <h1 className="contactBannerTitle">Contact us</h1>
         <div className="information-contact">
           <h2 className="title-contact">Lorem Ipsum</h2>
           <p className="body-text">

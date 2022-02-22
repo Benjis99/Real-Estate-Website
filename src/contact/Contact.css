@@ -28,14 +28,6 @@
   padding: 30px;
 }
 
-.contactBannerTitle {
-  text-align: center;
-  margin-top: -140px;
-  padding-right: 90px;
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 2px white;
-}
-
 .start-number-control {
   width: 25px;
 }
@@ -48,7 +40,7 @@
 }
 
 .body-text {
-  margin-top: -20px;
+  margin-top: -25px;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -125,4 +117,23 @@
   text-align: center;
   margin: auto;
   font-family: "Playfair Display", serif;
+}
+
+@media screen and (max-width: 428px) {
+  .entire-container {
+    margin: auto;
+    margin-top: -180px;
+  }
+
+  .body-text {
+    font-size: 15px;
+  }
+  .documents {
+    width: 355px;
+    height: 250px;
+  }
+
+  .container-contact {
+    margin-bottom: 100px;
+  }
 }
