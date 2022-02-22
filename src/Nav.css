@@ -35,3 +35,19 @@
   border: none;
   background-color: rgb(136, 136, 136);
 }
+
+@media screen and (max-width: 428px) {
+  .test {
+    margin-left: -5px;
+    align-items: center;
+    width: 100%;
+  }
+  .test > button {
+    margin: 0px;
+  }
+
+  .test > button:hover {
+    background-color: rgba(136, 136, 136, 0);
+    margin: 0px;
+  }
+}
