@@ -35,3 +35,11 @@
   border: none;
   background-color: rgb(136, 136, 136);
 }
+
+@media screen and (max-width: 428px) {
+  .test {
+    margin-left: -65px;
+    align-items: center;
+    width: 420px;
+  }
+}
