@@ -94,7 +94,7 @@ function OurServices() {
           <div className="flex-item-info"></div>
         </div>
       </div>
-      <div className="servicesInfoHeader">
+      <div className="meetYourRealtors">
         <h1 className="servicesInfoHeaderText">Meet your realtors</h1>
       </div>
       <div className="servicesInfoRealtors">
