@@ -1,13 +1,8 @@
-import React from 'react'
-import './Listingbanner.css'
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-
+import React from "react";
+import "./Listingbanner.css";
 
 function Listingbanner() {
-  return (
-    <div className="listingBanner"></div>
-  );
+  return <div className="listingBanner"></div>;
 }
 
 export default Listingbanner;

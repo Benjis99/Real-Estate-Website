@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 
 * {
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .displaySection {
   display: flex;
   padding: 30px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   width: auto;
 }
 
-h1.boxTitle{
+h1.boxTitle {
   font-size: 50px;
   line-height: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   margin-left: 50px;
   margin-top: 60px;
@@ -25,41 +24,39 @@ h1.boxTitle{
   position: absolute;
 }
 
-
-
-h1.titleSecond{
+h1.titleSecond {
   font-size: 60px;
   line-height: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   margin-left: 50px;
   margin-top: 100px;
-  text-align:center;
+  text-align: center;
   opacity: 80%;
   margin-right: 50px;
 }
 
-.textBox{
+.textBox {
   text-align: justify;
-  padding:15px;
-  padding-left:50px;
-  padding-right:50px;
-  background-color:#ECECEC;
-  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ececec;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 85px;
 }
 
-hr{
-  width:93%;
+hr {
+  width: 93%;
 }
 
-h1.titleThird{
+h1.titleThird {
   font-size: 60px;
   line-height: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   margin-left: 50px;
   margin-right: 50px;
