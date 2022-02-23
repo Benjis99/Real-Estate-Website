@@ -8,8 +8,10 @@ import manWalking from "../pictures/manwalking.jpg";
 import house from "../pictures/house.jpg";
 import DropDowns from "./DropDowns";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function Blog() {
+  const history = useNavigate();
   return (
     <div className="blog">
       <div className="recentPost">
@@ -31,6 +33,14 @@ function Blog() {
       </div>
       <section className="middle-section">
         <h2 className="middle-text">Lorem Ipsum</h2>
+        <div className="blog-box">
+          <Button
+            onClick={() => history("/createPost")}
+            className="make-blog-post"
+          >
+            Make blog post
+          </Button>
+        </div>
         <p className="sortBy">Sort by</p>
         <DropDowns />
       </section>

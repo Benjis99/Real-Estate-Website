@@ -12,6 +12,14 @@
   width: auto;
 }
 
+.displaySectionBox {
+  display: flex;
+  padding: 30px;
+  font-family: "Playfair Display", serif;
+  width: auto;
+  margin-left: 50px;
+}
+
 h1.boxTitle {
   font-size: 50px;
   line-height: 0;
@@ -63,4 +71,39 @@ h1.titleThird {
   margin-top: 100px;
   text-align: center;
   opacity: 80%;
+}
+
+.btn-left {
+  padding-left: 320px;
+}
+.btn-middle {
+  padding-left: 510px;
+}
+.btn-right {
+  padding-left: 510px;
+}
+
+.btn-one {
+  height: 40px;
+  background-color: #ff611d;
+  color: #ffffff;
+  font-weight: 300;
+}
+.btn-two {
+  height: 40px;
+  background-color: #ff611d;
+  color: #ffffff;
+  font-weight: 300;
+}
+.btn-three {
+  height: 40px;
+  background-color: #ff611d;
+  color: #ffffff;
+  font-weight: 300;
+}
+.button-box-house {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  margin-top: -40px;
 }

@@ -9,6 +9,7 @@ import Listings from "./listings/Listings";
 import About from "./about/About";
 import OurServices from "./ourServices/OurServices";
 import Blog from "./blogPosts/Blog";
+import CreatePost from "./createPost/CreatePost";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 function App() {
@@ -25,7 +26,8 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/LoginPage" element={<LoginPage />} />
+          <Route exact path="/loginPage" element={<LoginPage />} />
+          <Route exact path="/createPost" element={<CreatePost />} />
         </Routes>
 
         <Footer />
