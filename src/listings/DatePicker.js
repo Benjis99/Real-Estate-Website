@@ -20,8 +20,11 @@ function DatePicker() {
   }
   return (
     <div className="datePicker">
+      <h2 className="calendarTitle">Book Listing</h2>
       <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
+      <button className="bookListing">Book Date</button>
     </div>
+   
   );
 }
 

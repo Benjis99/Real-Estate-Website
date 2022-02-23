@@ -1,0 +1,35 @@
+
+
+
+button.bookListing{
+color: rgb(0, 0, 0);
+background-color:#ff611d;
+width:600px;
+position: relative;
+float: right;
+border:none;
+margin-right: 0px;
+font-family: "Playfair Display", serif;
+font-size: 20px;
+height:50px;
+box-shadow: 1px 1px 10px rgb(211, 211, 211);
+margin-bottom: 40px;
+}
+
+button.bookListing:hover{
+   color: aliceblue;
+   background-color: #ee4700;
+}
+
+h2.calendarTitle{
+    font-family: "Playfair Display", serif;
+    font-size: 33px;
+    text-align: center;
+    padding:10px;
+    background-color: #171F32;
+    color: #fff;
+}
+.datePicker{
+    box-shadow: 1px 1px 10px rgb(211, 211, 211);
+    margin-top: 40px;
+}

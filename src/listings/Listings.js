@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-import Listingdetails from './Listingdetails'
-import Realtor from './Realtor'
-import Listingbanner from './Listingbanner';
-import samirprofile from '../pictures/samirprofile.png'
-import Propertydetails from './Propertydetails';
-import './Listings.css'
-import DatePicker from './DatePicker';
-import Slider from '../home/Slider';
-=======
 import React from "react";
 import Listingdetails from "./Listingdetails";
 import Realtor from "./Realtor";
@@ -18,16 +7,12 @@ import Propertydetails from "./Propertydetails";
 import "./Listings.css";
 import { Button } from "react-bootstrap";
 import DatePicker from "./DatePicker";
->>>>>>> 017f2c76aaa76e9a2f5923fb927e0aaa452447e1
+import Slider from "./Slider";
 
 function listings() {
   return (
     <div className="Listings">
-<<<<<<< HEAD
-    <Slider/>
-=======
-      <Listingbanner />
->>>>>>> 017f2c76aaa76e9a2f5923fb927e0aaa452447e1
+      <Slider/>
 
       <div class="listingCont">
         <div className="cont1">
@@ -72,6 +57,7 @@ function listings() {
         waterView="Lorem Ipsum"
         cityView="Lalala"
         newConstruction="lalalajskdghsdgjks"
+        
         calender={<DatePicker />}
       />
     </div>

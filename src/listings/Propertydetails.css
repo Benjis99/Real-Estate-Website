@@ -38,6 +38,7 @@ h1.detailsTitle {
 .section3 {
   display: flex;
   margin-left: 50px;
+  margin-bottom: 100px;
 }
 
 .flexDetail1 {
