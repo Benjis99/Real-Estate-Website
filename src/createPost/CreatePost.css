@@ -107,4 +107,40 @@
 }
 
 @media screen and (max-width: 428px) {
+  .createPost {
+    margin-bottom: 200px;
+  }
+  .insert-picture-txt {
+    font-size: 15px;
+    width: 125px;
+    margin-left: 30px;
+    margin-top: 8px;
+  }
+  .blog-name {
+    margin-left: 30px;
+    width: 83.5%;
+    margin-bottom: 8px;
+  }
+  .blog-lastName {
+    margin-left: 30px;
+    width: 83.5%;
+  }
+  .blog-title {
+    margin-left: 30px;
+  }
+  .blog-date {
+    margin-left: 10px;
+  }
+  .blog-document {
+    width: 360px;
+  }
+
+  .post-blog {
+    margin-left: -68px;
+    width: 70px;
+  }
+
+  .picture-insert {
+    margin-left: -35px;
+  }
 }
