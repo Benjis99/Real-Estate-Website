@@ -104,12 +104,15 @@
   height: 400px;
 }
 .servicesHeaderH1 {
-  border: 1px solid red;
+  border: px solid red;
   width: 100%;
   font-size: 40px;
   display: flex;
   margin-top: -30px;
-  margin-left: -15px;
+}
+.ourServicesBreadText {
+  border: px solid red;
+  width: 60%;
 }
 
 .servicesInfoHeader {
@@ -201,6 +204,13 @@
   margin-left: 5px;
   font-weight: bold;
 }
+.servicesIconTitleOrangeProperty {
+  display: inline;
+  font-size: 28px;
+  color: #ff611d;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
 .servicesIconTitleOrange {
   display: inline;
   font-size: 28px;
@@ -262,6 +272,10 @@
   .flex-item-realtors:nth-child(12) {
     display: none;
   }
+  .ourServicesBreadText {
+    border: px solid red;
+    width: 100%;
+  }
 
   .flex-container-realtors {
     background-color: white;
@@ -273,9 +287,7 @@
   }
 
   .flex-item-realtors {
-    padding: 1rem;
-    margin: 1rem;
-    width: 250px;
+    margin-left: 23%;
     height: 400px;
     border: px solid red;
     background-color: white;
@@ -310,21 +322,45 @@
     font-size: 50px;
     top: 80px;
   }
+  .servicesIconTitle {
+    display: flex;
+    border: px solid green;
+    width: 40%;
+    margin-left: 5px;
+  }
+  .servicesIconTitleProperty {
+    display: inline;
+    font-size: 28px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  .servicesIconTitleOrange {
+    border: px solid red;
+    display: flex;
+    white-space: nowrap;
+    width: 55%;
+    margin-left: 73px;
+    margin-top: -35px;
+  }
+  .servicesIconTitleOrangeProperty {
+    border: px solid red;
+    display: flex;
+
+    width: 55%;
+    margin-left: 155px;
+    margin-top: -36px;
+  }
   .servicesInfoHeader {
     height: 100px;
     width: 100%;
     margin-top: 150px;
     margin-bottom: 20px;
   }
+
   .meetYourRealtors {
     height: 100px;
     width: 100%;
-    margin-bottom: 20px;
-  }
-  .meetYourRealtors {
-    height: 100px;
-    width: 100%;
-    margin-top: 1200px;
+    margin-top: 570px;
     margin-bottom: -200px;
   }
   .servicesInfoHeaderText {
@@ -333,7 +369,7 @@
 
   .flex-item-info:nth-child(1),
   .flex-item-info:nth-child(5) {
-    border: 2px solid red;
+    border: px solid red;
     display: none;
   }
   .flex-item {
@@ -346,9 +382,9 @@
   .flex-item-info {
     display: grid;
     padding: 0;
-    margin: 0;
+    margin-bottom: 5px;
     grid-template-columns: repeat(1, 1fr);
-    border: 1px solid red;
+    border: px solid red;
   }
   .flex-container-info {
     border: px solid red;
@@ -357,7 +393,7 @@
   }
   .servicesInfoRealtors {
     border: px solid green;
-    height: 1800px;
+    height: 100%;
   }
 
   .servicesHeadContainer {
@@ -366,14 +402,14 @@
     height: 450px;
     width: 100%;
     background: url("../pictures/OurServicesHeader.png");
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .servicesSecondHead {
     height: 600px;
     width: 100%;
     background: url("../pictures/servicesSecondHead.png");
-    object-fit: contain;
+    object-fit: cover;
     position: relative;
   }
 }
