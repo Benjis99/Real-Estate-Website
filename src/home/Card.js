@@ -21,6 +21,8 @@ function Card({
   beds,
   baths,
   type,
+  button,
+  btn,
 }) {
   return (
     <div className="card">
@@ -47,6 +49,8 @@ function Card({
         </div>
 
         <h2 className="listingPrice">{startingPrice}</h2>
+        <div className="counter-btn">{button}</div>
+        <div>{btn}</div>
       </div>
     </div>
   );

@@ -1,0 +1,69 @@
+.createPost {
+  max-width: 1000px;
+  border: 4px solid green;
+  padding: 1px;
+  margin: 20px;
+  height: 420px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 900px;
+}
+
+.left-sides {
+  border: 1px solid rgb(60, 0, 255);
+  width: 100%;
+  height: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.middle-sections {
+  border: 1px solid rgb(255, 0, 136);
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.right-sides {
+  width: 100%;
+  border: 1px solid rgb(47, 0, 255);
+  height: 180px;
+  text-align: center;
+}
+.insert-picture {
+  width: 100%;
+  border: 1px solid rgb(0, 255, 179);
+  height: 45px;
+  display: flex;
+}
+
+.blog-name {
+  outline: none;
+  height: 30px;
+  margin-right: 50px;
+  margin-left: 40px;
+}
+
+.blog-lastName {
+  outline: none;
+  height: 30px;
+}
+
+.blog-date {
+  outline: none;
+  height: 30px;
+  margin-left: 40px;
+}
+
+.blog-document {
+  outline: none;
+  width: 920px;
+  height: 170px;
+  resize: none;
+}
+
+.insert-picture-txt {
+  color: black;
+  font-size: 20px;
+}
