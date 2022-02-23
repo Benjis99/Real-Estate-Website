@@ -7,11 +7,12 @@ import Propertydetails from "./Propertydetails";
 import "./Listings.css";
 import { Button } from "react-bootstrap";
 import DatePicker from "./DatePicker";
+import Slider from "./Slider";
 
 function listings() {
   return (
     <div className="Listings">
-      <Listingbanner />
+      <Slider/>
 
       <div class="listingCont">
         <div className="cont1">
@@ -56,6 +57,7 @@ function listings() {
         waterView="Lorem Ipsum"
         cityView="Lalala"
         newConstruction="lalalajskdghsdgjks"
+        
         calender={<DatePicker />}
       />
     </div>
