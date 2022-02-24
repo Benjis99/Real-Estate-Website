@@ -41,7 +41,7 @@ const Slideshow =( {imgs} ) => {
         }
         
     }
-    return <div className="slideshow">
+    return <div className="slideShow">
     <img className='mainImg'src={imgs [index]}/>
     <div className='actions'>
         <button onClick={previous}>◄</button>
