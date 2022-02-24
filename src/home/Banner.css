@@ -60,3 +60,63 @@
   color: #000;
   transform: scale(1.06);
 }
+
+@media screen and (max-width: 428px){
+  .animate__animated.animate__fadeInDown {
+    background: url("../pictures/topban.png") center center;
+    height: 80vh;
+    max-width:428px;
+    position: relative;
+    border: 3px solid red;
+  }
+
+  .containerSlogan {
+    display: flex;
+    text-align: right;
+    margin-top: 200px;
+    width: 700px;
+    margin-left: 20px;
+    position: absolute;
+    border: 2px rgb(219, 0, 0);
+  }
+
+  .animate__animated.animate__slideInLeft {
+    --animate-duration: 3s;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 65px;
+    margin-left: 200px;
+    margin-top: 200px;
+    line-height: 1;
+    position: absolute;
+    color: #ffff;
+    display: inline-block;
+    text-align: right;
+    margin: 0 0.5rem;
+    animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    border: 3px solid red;
+  }
+
+  .bannerButton {
+    font-size: 25px;
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    background-color: #ff611d;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 20px;
+    border: none;
+    font-family: "Playfair Display", serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    transition: transform 100ms ease-in;
+    border: 3px solid red;
+  }
+  
+  .bannerButton:hover {
+    color: #000;
+    transform: scale(1.06);
+    border: 3px solid red;
+  }
+}

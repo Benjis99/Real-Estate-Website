@@ -19,7 +19,6 @@
 
 .card > img {
   object-fit: fill;
-
   min-width: 300px;
   min-height: 200px;
   width: 100%;
@@ -66,24 +65,38 @@ h2.biddingStamp {
   position: relative;
 }
 
-.homeBedIcon{
-  width:100px;
-  margin-right:20px;
-  border:1px solid#ffffff;
-  padding:10px;
+.homeBedIcon {
+  width: 100px;
+  margin-right: 20px;
+  border: 1px solid#ffffff;
+  padding: 10px;
 }
 
-.homeShowerIcon{
-  margin-right:20px;
-  width:100px;
-  padding:10px;
-  border:1px solid#ffffff;
+.homeShowerIcon {
+  margin-right: 20px;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid#ffffff;
 }
 
-.homeHouseIcon{
-  margin-right:10px;
-  width:100px;
-  border:1px solid#ffffff;
-  padding:10px;
-  padding-left:10px;
+.homeHouseIcon {
+  margin-right: 10px;
+  width: 100px;
+  border: 1px solid#ffffff;
+  padding: 10px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 428px) {
+  .card {
+    margin-left: 0px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border: 3px solid red;
+  }
+
+  .card:hover {
+    transform: none;
+  }
 }
