@@ -47,6 +47,10 @@ h2.biddingStamp {
   font-weight: 300;
   margin-bottom: 0;
 }
+.counter-btn {
+  color: #fff;
+  text-align: right;
+}
 
 .listingDescription {
   text-align: left;

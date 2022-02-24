@@ -30,6 +30,25 @@
   margin-top: -45px;
   margin-right: 170px;
 }
+.make-blog-post {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #0000001c;
+  color: black;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+.blog-box {
+  padding-left: 20px;
+}
+.make-blog-post:hover {
+  transition: 0.5s ease-in-out;
+  color: white;
+  background-color: #ff611d;
+}
 
 @media screen and (max-width: 428px) {
   .blogBoxes {

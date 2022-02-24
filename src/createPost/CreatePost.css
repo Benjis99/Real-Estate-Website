@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap");
+
+.createPost {
+  max-width: 1000px;
+  padding: 1px;
+  height: 520px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 900px;
+  background-color: rgb(224, 224, 224);
+}
+
+.blog-create-title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+.left-sides {
+  width: 100%;
+  height: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.middle-sections {
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.right-sides {
+  width: 100%;
+  height: 180px;
+  text-align: center;
+}
+.insert-picture {
+  width: 100%;
+  height: 45px;
+  display: flex;
+}
+
+.blog-name {
+  outline: none;
+  height: 30px;
+  margin-right: 50px;
+  margin-left: 40px;
+  width: 40%;
+}
+
+.blog-lastName {
+  outline: none;
+  height: 30px;
+  width: 40%;
+}
+
+.blog-date {
+  outline: none;
+  height: 30px;
+  margin-left: 48px;
+  width: 40.5%;
+}
+.blog-title {
+  outline: none;
+  height: 30px;
+  margin-left: 40px;
+  width: 40%;
+}
+
+.blog-document {
+  outline: none;
+  width: 920px;
+  height: 170px;
+  resize: none;
+}
+
+.picture-insert {
+  margin-top: 8px;
+}
+.insert-picture-txt {
+  color: black;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-right: 20px;
+  margin-left: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.post-blog {
+  width: 100px;
+  margin-left: 425px;
+  color: #000000;
+  background-color: #ff611da8;
+  font-weight: 300;
+  cursor: pointer;
+  border: 1px solid #0000001c;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.post-blog:hover {
+  transition: 0.5s ease-in-out;
+  color: white;
+  background-color: #ff611d;
+}
+
+@media screen and (max-width: 428px) {
+  .createPost {
+    margin-bottom: 200px;
+  }
+  .insert-picture-txt {
+    font-size: 15px;
+    width: 125px;
+    margin-left: 30px;
+    margin-top: 8px;
+  }
+  .blog-name {
+    margin-left: 30px;
+    width: 83.5%;
+    margin-bottom: 8px;
+  }
+  .blog-lastName {
+    margin-left: 30px;
+    width: 83.5%;
+  }
+  .blog-title {
+    margin-left: 30px;
+  }
+  .blog-date {
+    margin-left: 10px;
+  }
+  .blog-document {
+    width: 360px;
+  }
+
+  .post-blog {
+    margin-left: -68px;
+    width: 70px;
+  }
+
+  .picture-insert {
+    margin-left: -35px;
+  }
+}
