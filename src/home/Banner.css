@@ -13,7 +13,7 @@
 .containerSlogan {
   display: flex;
   text-align: right;
-  margin-top:100px;
+  margin-top:200px;
   width:700px;
   margin-left: 100px;
   position: absolute;
@@ -44,8 +44,8 @@
 .bannerButton {
   font-size: 25px;
   position: absolute;
-  left: 27%;
-  top: 58%;
+  left: 20%;
+  top: 50%;
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
