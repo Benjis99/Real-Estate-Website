@@ -230,6 +230,7 @@
 }
 
 .flex-container-realtors {
+
   background-color: white;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
