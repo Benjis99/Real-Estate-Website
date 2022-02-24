@@ -11,6 +11,7 @@
 
 .animate__animated.animate__fadeIn {
   transition: all 500ms;
+  --animate-duration: 2s;
   width: auto;
 }
 

@@ -1,7 +1,6 @@
 import React from "react";
 import Listingdetails from "./Listingdetails";
 import Realtor from "./Realtor";
-import Listingbanner from "./Listingbanner";
 import samirprofile from "../pictures/samirprofile.png";
 import Propertydetails from "./Propertydetails";
 import "./Listings.css";
