@@ -98,16 +98,16 @@ function Home() {
       </div>
       <div className="button-box-house">
         <div className="btn-left" onClick={() => setCount(count + 1)}>
-          <Button className="btn-one">Visit house</Button>
+          <Button className="btn-one">View details</Button>
         </div>
         <div
           className="btn-middle"
           onClick={() => setMiddleCount(middleCount + 1)}
         >
-          <Button className="btn-two">Visit house</Button>
+          <Button className="btn-two">View details</Button>
         </div>
         <div className="btn-right" onClick={() => setRightCount(right + 1)}>
-          <Button className="btn-three">Visit house</Button>
+          <Button className="btn-three">View details</Button>
         </div>
       </div>
       <Secondbanner />
