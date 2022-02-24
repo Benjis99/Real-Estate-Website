@@ -9,7 +9,7 @@
   margin-left: 0px;
 }
 
-.mainImg {
+.animate__animated.animate__fadeIn {
   transition: all 500ms;
   width: auto;
 }
