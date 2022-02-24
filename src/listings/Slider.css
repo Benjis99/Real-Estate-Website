@@ -1,50 +1,72 @@
-.active{
-    transform: scale(1.1);
-    transition: all 300ms;
-    justify-content: space-between;
-   
+.active {
+  transform: scale(1.1);
+  transition: all 300ms;
+  justify-content: space-between;
 }
 
-.slideShow{
-    position: relative;
-    margin-left: 0px;
+.slideShow {
+  position: relative;
+  margin-left: 0px;
 }
 
-.mainImg{
+.mainImg {
+  transition: all 500ms;
+  width: auto;
+}
+
+.actions {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.actions button {
+  background-color: rgb(54, 54, 54);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  color: aliceblue;
+  font-size: 50px;
+  border-radius: 15px;
+  padding-top: 5px;
+}
+
+.actions button:active {
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 428px) {
+  .mainImg {
     transition: all 500ms;
-    width:auto;
-   
-}
+    width: 428px;
+  }
 
-.actions{
+  .actions {
     position: absolute;
-    top:50%;
-    width:100%;
+    top: 30%;
+    width: 100%;
     font-size: 50px;
     display: flex;
     justify-content: space-between;
-
-}
-.actions button {
+  }
+  .actions button {
     background-color: rgb(54, 54, 54);
     border: none;
     cursor: pointer;
     padding: 10px;
     margin: 5px;
     color: aliceblue;
-    font-size: 50px;
-    border-radius: 15px;
-    padding-top:5px;
-}
-
-.actions button:active{
-    background-color: #000;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    margin: 5px;
+    font-size: 30px;
     border-radius: 15px;
     padding-top: 5px;
-
+  }
 }
-
