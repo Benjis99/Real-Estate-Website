@@ -47,7 +47,7 @@
 @media screen and (max-width: 428px) {
   .mainImg {
     transition: all 500ms;
-    width: 100%;
+    width: 428px;
   }
 
   .actions {
@@ -57,5 +57,16 @@
     font-size: 50px;
     display: flex;
     justify-content: space-between;
+  }
+  .actions button {
+    background-color: rgb(54, 54, 54);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 15px;
+    padding-top: 5px;
   }
 }

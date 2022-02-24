@@ -21,19 +21,17 @@
 
 @media screen and (max-width: 428px) {
   .cont2 {
-    margin-left: 70px;
+    border-top: 1px solid grey;
+    width: 300px;
+    margin-left: 35px;
     border-left: none;
     padding: 10px;
     padding-left: 50px;
     margin-top: 30px;
     margin-bottom: 50px;
+    filter: grayscale(100%);
   }
   .listingCont {
-    border: 1px solid purple;
     display: block;
   }
-  .cont1 {
-    border: 1px solid red;
-  }
-
 }

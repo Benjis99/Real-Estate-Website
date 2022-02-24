@@ -145,4 +145,8 @@ p.listingInformation {
     height: 50px;
     border: 1px solid rgb(226, 226, 226);
   }
+  .listingDetails {
+    margin-top: 10px;
+    width: 300px;
+  }
 }

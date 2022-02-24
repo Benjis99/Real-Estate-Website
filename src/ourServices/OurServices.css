@@ -277,6 +277,8 @@
     border: px solid red;
     width: 100%;
     text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
   }
 
   .flex-container-realtors {
@@ -317,12 +319,13 @@
     font-weight: bold;
     left: -110px;
     font-family: "Playfair Display", serif;
-    text-shadow: 0px 2px 8px rgb(146, 146, 146);
+    text-shadow: 0px 1px 1px black;
   }
   .textHeaderPicture {
     left: 35px;
     font-size: 50px;
     top: 80px;
+    text-shadow: 0px 1px 1px black;
   }
   .servicesIconTitle {
     display: flex;

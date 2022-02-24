@@ -13,20 +13,20 @@
 .containerSlogan {
   display: flex;
   text-align: right;
-  margin-top:200px;
-  width:700px;
+  margin-top: 200px;
+  width: 700px;
   margin-left: 100px;
   position: absolute;
   border: 2px rgb(219, 0, 0);
 }
 
-.animate__animated.animate__slideInLeft{
---animate-duration: 3s;
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 3s;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 90px;
   margin-left: 200px;
-  margin-top:200px;
+  margin-top: 200px;
   line-height: 1;
   position: absolute;
   color: #ffff;
@@ -34,7 +34,7 @@
   text-align: right;
   margin: 0 0.5rem;
   animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; 
+  animation-duration: 2s;
 }
 
 :root {
@@ -45,7 +45,7 @@
   font-size: 25px;
   position: absolute;
   left: 20%;
-  top: 50%;
+  top: 55%;
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
