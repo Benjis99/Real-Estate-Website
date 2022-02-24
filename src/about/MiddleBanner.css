@@ -1,0 +1,32 @@
+.middleBanner {
+  background: url("../pictures/middleBannerAbout.jpg") center center;
+  height: 40vh;
+  position: relative;
+  margin-top: -64px;
+  text-align: center;
+  color: #ff611d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.middle-title-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 428px) {
+  .middleBanner {
+    height: 40vh;
+    margin-top: 100px;
+  }
+  .middle-title-text {
+    font-size: 56px;
+    width: 100%;
+  }
+}

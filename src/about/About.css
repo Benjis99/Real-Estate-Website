@@ -1,0 +1,154 @@
+.who-row {
+  width: 100%;
+  height: 50vh;
+  background-color: #f4f4f4;
+  margin-top: -40px;
+}
+
+.who-title {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.who-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  max-width: 1500px;
+  margin-left: 100px;
+}
+
+.col {
+  padding: 40px;
+}
+
+.first-section-box {
+  max-width: 70%;
+  height: 600px;
+  margin: 20px;
+  margin: auto;
+  margin-top: 50px;
+
+  background-color: #e6e6e6;
+  box-shadow: 0px 2px 8px rgb(117, 117, 117);
+  display: flex;
+}
+
+.second-section-box {
+  max-width: 70%;
+  height: 600px;
+  margin: 20px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  background-color: #e6e6e6;
+  box-shadow: 0px 2px 8px rgb(117, 117, 117);
+  display: flex;
+}
+.box-line {
+}
+
+.left-txt-box {
+  width: 900px;
+  height: 600px;
+
+  padding-left: 20px;
+}
+
+.right-txt-box {
+  width: 900px;
+  height: 600px;
+  background: url("../pictures/sink.jpg") center center;
+}
+.left-txt-box-under {
+  width: 900px;
+  height: 600px;
+  background: url("../pictures/plant.jpg") center center;
+}
+.right-txt-box-under {
+  width: 900px;
+  height: 600px;
+  padding-left: 20px;
+}
+
+.box-title-offer {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+
+  font-family: Playfair Display;
+  margin-top: 10px;
+}
+
+.orange-txt-offer {
+  font-family: Playfair Display;
+  color: #ff611d;
+
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.txt-offer {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 428px) {
+  .right-txt-box-under {
+    width: 380px;
+  }
+
+  .box-title-offer {
+    font-size: 50px;
+  }
+
+  .right-txt-box {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+  }
+  .left-txt-box-under {
+    width: 100%;
+    height: 600px;
+  }
+
+  .left-txt-box {
+    width: 400px;
+    position: absolute;
+    margin-top: 600px;
+  }
+
+  .first-section-box {
+    max-width: 100%;
+    height: 1500px;
+    display: block;
+  }
+
+  .second-section-box {
+    max-width: 100%;
+    height: 1500px;
+    display: block;
+  }
+
+  .who-text {
+    font-size: 20px;
+    max-width: 428px;
+    margin-left: -20px;
+    margin-top: -10px;
+  }
+  .who-row {
+    height: 530px;
+  }
+
+  .who-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: -23px;
+    margin-top: 10px;
+  }
+}
