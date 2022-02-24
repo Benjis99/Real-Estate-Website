@@ -65,3 +65,25 @@ h2.biddingStamp {
   font-size: 10px;
   position: relative;
 }
+
+.homeBedIcon{
+  width:100px;
+  margin-right:20px;
+  border:1px solid#ffffff;
+  padding:10px;
+}
+
+.homeShowerIcon{
+  margin-right:20px;
+  width:100px;
+  padding:10px;
+  border:1px solid#ffffff;
+}
+
+.homeHouseIcon{
+  margin-right:10px;
+  width:100px;
+  border:1px solid#ffffff;
+  padding:10px;
+  padding-left:10px;
+}

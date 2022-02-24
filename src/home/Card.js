@@ -34,17 +34,17 @@ function Card({
         <p>{description} </p>
 
         <div className="listingIcons">
-          <p>
+          <p className="homeBedIcon">
             <BedIcon />
             {beds}{" "}
           </p>
-          <p>
+          <p className="homeShowerIcon">
             <ShowerIcon />
-            {baths}
+            {baths}{" "}
           </p>
-          <p>
+          <p className="homeHouseIcon">
             <HouseIcon />
-            {type}
+            {type}{" "}
           </p>
         </div>
 
