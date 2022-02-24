@@ -12,9 +12,10 @@
 
 .textHeaderPicture {
   position: absolute;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 75px;
   top: 80px;
+  font-size: 90px;
   left: 280px;
   text-align: right;
   font-family: "Playfair Display", serif;
