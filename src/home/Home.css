@@ -73,37 +73,68 @@ h1.titleThird {
   opacity: 80%;
 }
 
-.btn-left {
-  padding-left: 320px;
-}
-.btn-middle {
-  padding-left: 510px;
-}
-.btn-right {
-  padding-left: 510px;
+.btn-one {
+  height: 50px;
+  background-color: #ff611d;
+  color: #ffffff;
+  font-weight: 300;
+  width:550px;
+  margin-left:0px;
+  border:none;
+  transition: transform 100ms ease-in;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px rgb(211, 211, 211);
 }
 
-.btn-one {
-  height: 40px;
-  background-color: #ff611d;
-  color: #ffffff;
-  font-weight: 300;
+.btn-one:hover{
+  color: #000;
+  transform: scale(1.06);
 }
+
 .btn-two {
-  height: 40px;
+  height: 50px;
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
+  width:550px;
+  margin-left:33px;
+  transition: transform 100ms ease-in;
+  font-family: "Playfair Display", serif;
+  border:none;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px rgb(211, 211, 211);
+}
+
+.btn-two:hover{
+  color: #000;
+  transform: scale(1.06);
 }
 .btn-three {
-  height: 40px;
+  height: 50px;
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
+  width:550px;
+  margin-left:35px;
+  transition: transform 100ms ease-in;
+  font-family: "Playfair Display", serif;
+  border:none;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px rgb(211, 211, 211);
+}
+
+.btn-three:hover{
+  color: #000;
+  transform: scale(1.06);
 }
 .button-box-house {
   cursor: pointer;
   display: flex;
-  width: 100%;
+  max-width: 1610px;
   margin-top: -40px;
+  margin-top:0px;
+  position: absolute;
+  margin-left: 100px;
+  transition: transform 100ms ease-in;
 }
