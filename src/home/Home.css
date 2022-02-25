@@ -78,16 +78,16 @@ h1.titleThird {
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
-  width:550px;
-  margin-left:0px;
-  border:none;
+  width: 550px;
+  margin-left: 0px;
+  border: none;
   transition: transform 100ms ease-in;
   font-family: "Playfair Display", serif;
   font-size: 18px;
   box-shadow: 1px 1px 10px rgb(211, 211, 211);
 }
 
-.btn-one:hover{
+.btn-one:hover {
   color: #000;
   transform: scale(1.06);
 }
@@ -97,16 +97,16 @@ h1.titleThird {
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
-  width:550px;
-  margin-left:33px;
+  width: 550px;
+  margin-left: 33px;
   transition: transform 100ms ease-in;
   font-family: "Playfair Display", serif;
-  border:none;
+  border: none;
   font-size: 18px;
   box-shadow: 1px 1px 10px rgb(211, 211, 211);
 }
 
-.btn-two:hover{
+.btn-two:hover {
   color: #000;
   transform: scale(1.06);
 }
@@ -115,16 +115,16 @@ h1.titleThird {
   background-color: #ff611d;
   color: #ffffff;
   font-weight: 300;
-  width:550px;
-  margin-left:35px;
+  width: 550px;
+  margin-left: 35px;
   transition: transform 100ms ease-in;
   font-family: "Playfair Display", serif;
-  border:none;
+  border: none;
   font-size: 18px;
   box-shadow: 1px 1px 10px rgb(211, 211, 211);
 }
 
-.btn-three:hover{
+.btn-three:hover {
   color: #000;
   transform: scale(1.06);
 }
@@ -133,8 +133,161 @@ h1.titleThird {
   display: flex;
   max-width: 1610px;
   margin-top: -40px;
-  margin-top:0px;
+  margin-top: 0px;
   position: absolute;
   margin-left: 100px;
   transition: transform 100ms ease-in;
+}
+
+@media screen and (max-width: 428px) {
+  h1.boxTitle {
+    font-size: 35px;
+    line-height: 1;
+    width: 350px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 60px;
+    text-align: left;
+    opacity: 80%;
+    position: absolute;
+  }
+
+  .textBox {
+    text-align: justify;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ececec;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .displaySectionBox {
+    display: block;
+    padding: 5px;
+    width: 400px;
+    margin-left: 7px;
+    margin-bottom: 70px;
+
+  }
+
+  .button-box-house {
+    cursor: pointer;
+    display: block;
+    max-width: 400px;
+    margin-top: -40px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 10px;
+    transition: transform 100ms ease-in;
+    z-index: 10;
+
+  }
+
+  .btn-one {
+    height: 50px;
+    background-color: #ff611d;
+    color: #ffffff;
+    font-weight: 300;
+    max-width: 400px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -2145px;
+    border: none;
+    transition: transform 100ms ease-in;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px rgb(211, 211, 211);
+    z-index: 10;
+    
+  }
+
+  .btn-one:hover {
+    color: #000;
+    transform: scale(1.06);
+  }
+
+  .btn-two {
+    height: 50px;
+    background-color: #ff611d;
+    color: #ffffff;
+    font-weight: 300;
+    max-width: 400px;
+    margin-left: 3px;
+    position: absolute;
+    top: -1130px;
+    transition: transform 100ms ease-in;
+    font-family: "Playfair Display", serif;
+    border: none;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px rgb(211, 211, 211);
+   
+  }
+
+  .btn-two:hover {
+    color: #000;
+    transform: scale(1.06);
+  }
+  .btn-three {
+    height: 50px;
+    background-color: #ff611d;
+    color: #ffffff;
+    font-weight: 300;
+    max-width: 400px;
+    margin-left: 3px;
+    position: absolute;
+    top: -150px;
+    transition: transform 100ms ease-in;
+    font-family: "Playfair Display", serif;
+    border: none;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px rgb(211, 211, 211);
+   
+  }
+  h1.titleThird {
+    font-size: 40px;
+    line-height: 0;
+    white-space: nowrap;
+   
+  }
+  .displaySection {
+    display: block;
+    padding: 15px;
+    width: 400px;
+    font-family: "Playfair Display", serif;
+    width: auto;
+    
+  }
+  .textBox {
+    text-align: justify;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ececec;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 80px;
+  }
+
+  h1.boxTitle {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+    opacity: 80%;
+    width: 380px;
+    position: absolute;
+  
+  }
 }

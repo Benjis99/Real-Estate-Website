@@ -23,16 +23,23 @@
 
   width: 100%;
 }
-.title {
+h4.date-title {
   margin: 0px;
 
   align-items: left;
   color: #ff611d;
 }
 
+.title-blg {
+  margin-top: 0px;
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
 .description {
   text-align: left;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .descript {
@@ -46,7 +53,7 @@
 }
 
 @media screen and (max-width: 428px) {
-  .title {
+  h4.date-title {
     margin-top: -5px;
   }
 }

@@ -47,7 +47,8 @@ function Blog() {
       <div className="blogBoxes">
         <BlogBox
           src={group}
-          title="10 FEBRUARY 2022 14:30"
+          date="10 FEBRUARY 2022 14:30"
+          title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. 
@@ -59,7 +60,8 @@ function Blog() {
         />
         <BlogBox
           src={manWalking}
-          title="10 FEBRUARY 2022 14:30"
+          date="10 FEBRUARY 2022 14:30"
+          title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. 
@@ -71,7 +73,8 @@ function Blog() {
         />
         <BlogBox
           src={house}
-          title="10 FEBRUARY 2022 14:30"
+          date="10 FEBRUARY 2022 14:30"
+          title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. 
@@ -88,7 +91,8 @@ function Blog() {
       <div className="second-row">
         <BlogBox
           src={group}
-          title="10 FEBRUARY 2022 14:30"
+          date="10 FEBRUARY 2022 14:30"
+          title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. 
@@ -100,7 +104,8 @@ function Blog() {
         />
         <BlogBox
           src={manWalking}
-          title="10 FEBRUARY 2022 14:30"
+          date="10 FEBRUARY 2022 14:30"
+          title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. 
@@ -112,7 +117,8 @@ function Blog() {
         />
         <BlogBox
           src={house}
-          title="10 FEBRUARY 2022 14:30"
+          date="10 FEBRUARY 2022 14:30"
+          title="Lorem ipsum"
           description="Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. 

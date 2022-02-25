@@ -9,8 +9,9 @@
   margin-left: 0px;
 }
 
-.mainImg {
+.animate__animated.animate__fadeIn {
   transition: all 500ms;
+  --animate-duration: 2s;
   width: auto;
 }
 
@@ -43,10 +44,26 @@
   border-radius: 15px;
   padding-top: 5px;
 }
+.thumbnail {
+  width: 100px;
+  height: auto;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.thumbnail > img {
+  width: 120px;
+  height: auto;
+  display: flex;
+  margin-left: 15px;
+}
 
 @media screen and (max-width: 428px) {
-  .mainImg {
+  .animate__animated.animate__fadeIn {
     transition: all 500ms;
+    --animate-duration: 2s;
     width: 428px;
   }
 
@@ -68,5 +85,11 @@
     font-size: 30px;
     border-radius: 15px;
     padding-top: 5px;
+  }
+
+  .thumbnail > img {
+    width: 80px;
+    height: auto;
+    display: inline;
   }
 }

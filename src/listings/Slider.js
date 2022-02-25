@@ -42,7 +42,7 @@ const Slideshow =( {imgs} ) => {
         
     }
     return <div className="slideShow">
-    <img className='mainImg'src={imgs [index]}/>
+    <img className='animate__animated animate__fadeIn'src={imgs [index]}/>
     <div className='actions'>
         <button onClick={previous}>◄</button>
         <button onClick={next}>►</button>
