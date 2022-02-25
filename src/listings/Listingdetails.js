@@ -34,6 +34,15 @@ function Listingdetails({ listingTitle, listingAddress, listingInformation }) {
       </div>
       <p className="listingInformation">{listingInformation}</p>
 
+<div className="priceBidCont">
+      <h3 className="priceCont">
+      $25 724 623 
+      </h3>
+
+      <button className="bidCont">
+      BID 
+      </button>
+      
       <p className="shareContainer">
         <p className="shareIcons">
           <FavoriteIcon />
@@ -45,6 +54,7 @@ function Listingdetails({ listingTitle, listingAddress, listingInformation }) {
           <PrintIcon />
         </p>
       </p>
+    </div>
     </div>
   );
 }

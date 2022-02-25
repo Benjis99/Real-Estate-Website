@@ -33,7 +33,7 @@
   display: inline-block;
   text-align: right;
   margin: 0 0.5rem;
-  animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation: slideInLeft;
   animation-duration: 2s;
 }
 
@@ -52,7 +52,6 @@
   padding: 20px;
   border: none;
   font-family: "Playfair Display", serif;
-  /*font-family: 'Roboto', sans-serif;*/
   transition: transform 100ms ease-in;
 }
 
