@@ -44,39 +44,39 @@ p.listingInformation {
   margin-bottom: 0;
 }
 
-.priceBidCont{
+.priceBidCont {
   display: flex;
 }
 
-.priceCont{
+.priceCont {
   margin-left: 48px;
   border: 1px solid rgb(226, 226, 226);
   padding: 10px;
   font-size: 30px;
   text-align: center;
-  width:200px;
+  width: 200px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ff611d;
   border: 2px solid rgb(221, 221, 221);
 }
 
-button.bidCont{
-color: rgb(0, 0, 0);
-background-color:#ff611d;
-width:200px;
-position: relative;
-border:none;
-margin-top:30px;
-margin-left:20px;
-margin-right: 0px;
-font-family: "Playfair Display", serif;
-font-size: 25px;
-height:60px;
-box-shadow: 0px 0px 12px rgb(211, 211, 211);
+button.bidCont {
+  color: rgb(0, 0, 0);
+  background-color: #ff611d;
+  width: 200px;
+  position: relative;
+  border: none;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 0px;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  height: 60px;
+  box-shadow: 0px 0px 12px rgb(211, 211, 211);
 }
 
-button.bidCont:hover{
+button.bidCont:hover {
   color: aliceblue;
   background-color: #ee4700;
 }
@@ -105,16 +105,16 @@ button.bidCont:hover{
 .shareIcons {
   margin-left: 0px;
   padding: 15px;
-  padding-bottom:5px;
-  height:30px;
+  padding-bottom: 5px;
+  height: 30px;
   border: 1px solid rgb(226, 226, 226);
 }
 .shareContainer {
-  margin-top:15px;
+  margin-top: 15px;
   margin-left: 379px;
   display: flex;
   width: 170px;
-  height:50px;
+  height: 50px;
   padding-bottom: 10px;
 }
 
@@ -151,6 +151,7 @@ button.bidCont:hover{
     text-align: justify;
     height: 350px;
     border: px solid green;
+    margin: 35px;
   }
   h3.listingAddress {
     margin-left: 50px;
@@ -189,5 +190,36 @@ button.bidCont:hover{
   .listingDetails {
     margin-top: 10px;
     width: 300px;
+    margin: 0;
+    padding: 0px;
+  }
+  .priceBidCont {
+    display: block;
+  }
+  button.bidCont {
+    width: 365px;
+
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .shareContainer {
+    margin-top: 15px;
+    margin-left: 80px;
+    display: flex;
+    width: 170px;
+    height: 50px;
+    padding-bottom: 10px;
+  }
+  .priceCont {
+    margin-left: 30px;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    width: 360px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ff611d;
+    border: 2px solid rgb(221, 221, 221);
   }
 }
