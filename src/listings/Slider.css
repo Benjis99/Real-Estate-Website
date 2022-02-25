@@ -44,10 +44,16 @@
   border-radius: 15px;
   padding-top: 5px;
 }
+.thumbnail {
+  width: 100px;
+  height: auto;
+  display: flex;
+}
 
 @media screen and (max-width: 428px) {
-  .mainImg {
+  .animate__animated.animate__fadeIn {
     transition: all 500ms;
+    --animate-duration: 2s;
     width: 428px;
   }
 
@@ -69,5 +75,11 @@
     font-size: 30px;
     border-radius: 15px;
     padding-top: 5px;
+  }
+
+  .thumbnail {
+    width: 50px;
+    height: auto;
+    display: inline;
   }
 }
