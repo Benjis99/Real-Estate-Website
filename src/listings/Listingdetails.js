@@ -7,8 +7,10 @@ import Bed from "@mui/icons-material/Bed";
 import SendIcon from "@mui/icons-material/Send";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import PrintIcon from "@mui/icons-material/Print";
+import { useNavigate } from "react-router-dom";
 
 function Listingdetails({ listingTitle, listingAddress, listingInformation }) {
+  const history = useNavigate();
   return (
     <div className="listingDetails">
       <div className="flexContainer1">
@@ -39,7 +41,7 @@ function Listingdetails({ listingTitle, listingAddress, listingInformation }) {
       $25 724 623 
       </h3>
 
-      <button className="bidCont">
+      <button onClick={() => history("/contact")} className="bidCont">
       BID 
       </button>
       
