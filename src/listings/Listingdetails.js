@@ -1,6 +1,5 @@
 import React from "react";
 import "./Listingdetails.css";
-import BedIcon from "@mui/icons-material/Bed";
 import HouseIcon from "@mui/icons-material/House";
 import ShowerIcon from "@mui/icons-material/Shower";
 import Bed from "@mui/icons-material/Bed";
