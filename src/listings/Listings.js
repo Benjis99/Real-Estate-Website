@@ -54,8 +54,8 @@ function listings() {
         conditioner="Lorem Ipsum"
         garage="Lorem Ipsum"
         waterView="Lorem Ipsum"
-        cityView="Lalala"
-        newConstruction="lalalajskdghsdgjks"
+        cityView="Lorem Ipsum"
+        newConstruction="Lorem Ipsum"
         
         calender={<DatePicker />}
       />
