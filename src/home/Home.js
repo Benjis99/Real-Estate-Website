@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
@@ -13,6 +13,15 @@ function Home() {
   const [count, setCount] = useState(1842);
   const [middleCount, setMiddleCount] = useState(1413);
   const [right, setRightCount] = useState(1187);
+  useEffect(() => {
+    setCount(() => count + 1);
+  }, []);
+  useEffect(() => {
+    setMiddleCount(() => middleCount + 1);
+  }, []);
+  useEffect(() => {
+    setRightCount(() => right + 1);
+  }, []);
 
   return (
     <div className="home">
@@ -97,16 +106,16 @@ function Home() {
         />{" "}
       </div>
       <div className="button-box-house">
-        <div className="btn-left" onClick={() => setCount(count + 1)}>
+        <div className="btn-left" onClick={() => setCount((c) => c + 1)}>
           <Button className="btn-one">View details</Button>
         </div>
         <div
           className="btn-middle"
-          onClick={() => setMiddleCount(middleCount + 1)}
+          onClick={() => setMiddleCount((m) => m + 1)}
         >
           <Button className="btn-two">View details</Button>
         </div>
-        <div className="btn-right" onClick={() => setRightCount(right + 1)}>
+        <div className="btn-right" onClick={() => setRightCount((r) => r + 1)}>
           <Button className="btn-three">View details</Button>
         </div>
       </div>
