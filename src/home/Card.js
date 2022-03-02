@@ -4,6 +4,7 @@ import BathtubIcon from "@mui/icons-material/Bathtub";
 import BedIcon from "@mui/icons-material/Bed";
 import HouseIcon from "@mui/icons-material/House";
 import ShowerIcon from "@mui/icons-material/Shower";
+
 <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
   rel="stylesheet"
@@ -24,6 +25,7 @@ function Card({
   button,
   btn,
 }) {
+
   return (
     <div className="card">
       <h2 className="biddingStamp">{biddingStamp}</h2>
@@ -32,7 +34,7 @@ function Card({
         <h2 className="listingTitle">{title}</h2>
         <h3>{location}</h3>
         <p>{description} </p>
-
+       
         <div className="listingIcons">
           <p className="homeBedIcon">
             <BedIcon />
