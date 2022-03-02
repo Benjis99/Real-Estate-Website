@@ -114,6 +114,9 @@ h1.sideTitle {
 }
 
 @media screen and (max-width: 428px) {
+  .detailsInfo {
+    width: 100%;
+  }
   .propertyDetails {
     border: px solid red;
     background-color: #f5f5f5;
@@ -134,6 +137,12 @@ h1.sideTitle {
     margin-right: 150px;
     width: 200px;
   }
+  .flexDetail3 {
+    width: 300px;
+  }
+  .flexDetail1 {
+    width: 300px;
+  }
   h1.detailsTitle {
     padding-top: 20px;
     padding-bottom: 5px;
@@ -153,6 +162,13 @@ h1.sideTitle {
     margin-top: 33px;
     margin-left: 255px;
     color: #ff611d;
+    width: 200px;
+  }
+  .section2 {
+    width: 300px;
+  }
+
+  p.pointTitle {
     width: 200px;
   }
 
