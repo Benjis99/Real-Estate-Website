@@ -48,6 +48,8 @@ function Home() {
         </p>
       </div>
 
+ 
+
       <h1 className="titleSecond">Top listings</h1>
       <hr></hr>
       <div className="displaySectionBox">

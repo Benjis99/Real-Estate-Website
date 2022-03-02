@@ -19,6 +19,7 @@ h1.secondTitle {
 .secondTextBox {
   width: 700px;
   margin-top: 130px;
+  height: 250px;
   margin-left: 50px;
   background-color: #ececec;
   position: absolute;
@@ -43,6 +44,26 @@ p.quoteAuthor {
   font-style: italic;
 }
 
+.listingObject {
+  color: rgb(0, 0, 0);
+  background-color: #ff611d;
+  width: auto;
+  position: relative;
+  border: none;
+  margin-right: 0px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  height: 50px;
+  box-shadow: 1px 1px 10px rgb(211, 211, 211);
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+.listingObject:hover {
+  color: aliceblue;
+  background-color: #ee4700;
+}
+
 @media screen and (max-width: 428px) {
   .secondBanner {
     background: url("../pictures/secondbanner2.jpg") center center;
@@ -55,12 +76,12 @@ p.quoteAuthor {
   .secondTextBox {
     width: 350px;
     margin-top: 130px;
-    height: 200px;
+    height: 220px;
     margin-left: 17px;
     background-color: #ececec;
     position: absolute;
     color: black;
-    opacity: 50%;
+    opacity: 100%;
     padding: 20px;
     font-size: 15px;
     transition: transform 50ms ease-in;
