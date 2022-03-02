@@ -81,7 +81,7 @@ p.quoteAuthor {
     background-color: #ececec;
     position: absolute;
     color: black;
-    opacity: 50%;
+    opacity: 100%;
     padding: 20px;
     font-size: 15px;
     transition: transform 50ms ease-in;
