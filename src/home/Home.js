@@ -8,20 +8,13 @@ import house2 from "../pictures/house2.jpg";
 import house3 from "../pictures/house3.jpg";
 import house4 from "../pictures/house4.jpg";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const [count, setCount] = useState(1842);
   const [middleCount, setMiddleCount] = useState(1413);
   const [right, setRightCount] = useState(1187);
-  useEffect(() => {
-    setCount(() => count + 1);
-  }, []);
-  useEffect(() => {
-    setMiddleCount(() => middleCount + 1);
-  }, []);
-  useEffect(() => {
-    setRightCount(() => right + 1);
-  }, []);
+  const history = useNavigate();
 
   return (
     <div className="home">
@@ -115,7 +108,7 @@ function Home() {
           className="btn-middle"
           onClick={() => setMiddleCount((m) => m + 1)}
         >
-          <Button className="btn-two">View details</Button>
+          <Button onClick={() => history("/listings")} className="btn-two">View Listing</Button>
         </div>
         <div className="btn-right" onClick={() => setRightCount((r) => r + 1)}>
           <Button className="btn-three">View details</Button>
